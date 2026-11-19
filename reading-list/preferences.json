@@ -1,0 +1,103 @@
+{
+  "categories": [
+    "stat.ME",
+    "stat.CO",
+    "stat.AP"
+  ],
+  "context": "Prioritize principled Bayesian methodology and statistical computation for complex data: variational inference, expectation propagation, MCMC, scalability, convergence and approximate inference. Favor latent-structure models, generalized linear mixed models, dynamic and state-space models, and network models, especially contributions combining theory and computation. Nonparametric Bayes, survival analysis and spatial statistics are secondary interests when connected to these themes. Give lower priority to deep learning, reinforcement learning or graph neural networks without substantial statistical methodology, routine applications, and software-only descriptions without a methodological contribution.",
+  "keywords": [
+    "Bayesian",
+    "variational inference",
+    "expectation propagation",
+    "MCMC",
+    "GLMM",
+    "additive model",
+    "state-space",
+    "network model"
+  ],
+  "authors": [
+    "Andrew Gelman",
+    "David Dunson",
+    "Mike West",
+    "Matt Wand",
+    "Omiros Papaspiliopoulos",
+    "Chris Holmes",
+    "Simon Wood",
+    "Daniele Durante",
+    "Giacomo Zanella",
+    "Peter Hoff",
+    "Zoubin Ghahramani",
+    "Sudipto Banerjee",
+    "Nicolas Chopin",
+    "Christian Robert",
+    "Gareth Roberts",
+    "Ryan Tibshirani",
+    "Robert Tibshirani",
+    "Trevor Hastie",
+    "Bradley Efron",
+    "Martin Wainwright",
+    "Nick Polson",
+    "David Blei",
+    "Radford Neal",
+    "Michael Jordan",
+    "Edoardo Airoldi",
+    "Sylvia Frühwirth-Schnatter",
+    "Arnaud Doucet",
+    "Emmanuel Candès",
+    "Larry Wasserman",
+    "Peter Bühlmann",
+    "Yee Whye Teh"
+  ],
+  "topics": {
+    "Bayesian computation": [
+      "variational inference",
+      "expectation propagation",
+      "Markov chain Monte Carlo",
+      "MCMC",
+      "approximate inference",
+      "Bayesian computation"
+    ],
+    "Latent and mixed models": [
+      "latent variable",
+      "latent structure",
+      "mixed model",
+      "mixed effect",
+      "GLMM",
+      "additive model"
+    ],
+    "Dynamic models": [
+      "state-space",
+      "state space",
+      "dynamic model",
+      "time series",
+      "filtering",
+      "sequential Monte Carlo"
+    ],
+    "Networks": [
+      "network model",
+      "network data",
+      "relational data",
+      "stochastic block"
+    ],
+    "Related methodology": [
+      "nonparametric Bayes",
+      "Bayesian nonparametric",
+      "survival analysis",
+      "spatial statistics",
+      "spatial model"
+    ]
+  },
+  "lower_priority": [
+    "reinforcement learning",
+    "graph neural network",
+    "deep learning"
+  ],
+  "retention_days": 7,
+  "shortlist_size": 20,
+  "minimum_score": 4.0,
+  "include_revisions": false,
+  "llm": {
+    "enabled": false,
+    "max_candidates": 40
+  }
+}

@@ -1,0 +1,63 @@
+name: Update arXiv reading list
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "docs/**"
+      - ".github/workflows/reading-list.yml"
+  schedule:
+    # UTC: around 08:43 in winter / 09:43 in summer in Rome; not an exact delivery promise.
+    - cron: '43 7 * * 1-5'
+permissions:
+  contents: read
+concurrency:
+  group: academic-site-pages
+  cancel-in-progress: false
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          ref: main
+      - uses: actions/setup-python@v7
+        with:
+          python-version: '3.13'
+      - name: Test reader
+        run: python -m unittest discover -s reading-list/tests -v
+      - name: Fetch, rank and render
+        if: github.event_name != 'push'
+        env:
+          NVIDIA_API_KEY: ${{ secrets.NVIDIA_API_KEY }}
+          READING_LLM_MODEL: ${{ vars.READING_LLM_MODEL }}
+          READING_USE_LLM: ${{ vars.READING_USE_LLM }}
+        run: python reading-list/reader.py
+      - name: Preserve paper history and the generated page
+        if: github.event_name != 'push'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add reading-list/data/papers.json docs/reading-list.html
+          if ! git diff --cached --quiet; then
+            git commit -m "Update arXiv reading list"
+            git push origin HEAD:main
+          fi
+      - uses: actions/upload-pages-artifact@v5
+        with:
+          path: docs
+  deploy:
+    needs: collect
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy academic site
+        id: deployment
+        uses: actions/deploy-pages@v5
