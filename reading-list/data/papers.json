@@ -1,36 +1,63 @@
 {
   "papers": [
     {
-      "id": "2611.23467",
-      "url": "https://arxiv.org/abs/2611.23467",
-      "title": "Laplace Bayesian transport maps for generative modeling of non-Gaussian climate fields",
-      "abstract": "Transport maps provide a powerful framework for the generative modeling of complex, non-Gaussian spatial fields, such as those encountered in climate science. By mapping a complicated target distribution to a standard Gaussian reference distribution, they can serve as efficient stochastic surrogates. However, current Bayesian transport maps, which are modeled using autoregressive Gaussian processes, typically rely on empirical Bayes estimates that ignore hyperparameter uncertainty. Here, we contrast this point-estimate approach with a fully Bayesian model that provides posterior uncertainty quantification in transport map hyperparameters. To avoid the high cost of Markov chain Monte Carlo (MCMC), we also propose a Laplace approximation to the hyperparameter posteriors, which can be computed at negligible additional computational cost relative to empirical Bayes. We provide numerical evidence and a real-data climate application demonstrating that these Laplace approximations can accurately capture most posterior summaries at a fraction of the cost of MCMC, while maintaining good predictive properties. Thus, our approach offers a scalable, uncertainty-aware framework for the generative modeling of non-Gaussian climate fields.",
-      "authors": "Jacob A. Johnson, Felix Jimenez, Matthias Katzfuss",
+      "id": "2611.23877",
+      "url": "https://arxiv.org/abs/2611.23877",
+      "title": "Infinity-Wasserstein Distributionally Robust Principal Component Analysis: Exact Reformulation, Finite-Sample Guarantee, and Efficient Algorithm",
+      "abstract": "Principal component analysis (PCA) is a fundamental and ubiquitous technique for dimension reduction and representation learning, yet its empirical formulation remains vulnerable to distributional uncertainty. While distributionally robust optimization (DRO) offers a natural remedy, existing order-2 Wasserstein models of PCA either preserve the nominal PCA subspace or lack an exact reformulation. This paper demonstrates how the infinity-Wasserstein distance can reconcile these two desirable properties. For the resulting DRO model of PCA, we derive an exact finite-dimensional reformulation and explicitly identify a worst-case distribution attaining the inner maximum. Crucially, the reformulated objective retains samplewise residual information beyond the empirical covariance matrix, revealing a mechanism through which distributional robustness can reshape the learned principal subspace. Under the mild assumption that the true distribution has a finite fourth moment, we further establish a uniform finite-sample performance guarantee for the proposed model. An iteratively reweighted majorization-minimization algorithm is also developed to solve the resulting nonconvex and nonsmooth optimization problem, with a rigorous analysis of its convergence properties. Numerical experiments substantiate the computational efficiency of the proposed algorithm and the practical effectiveness of the infinity-Wasserstein model in downstream applications.",
+      "authors": "Zhouxing Luo, Lei Wang, Xin Liu",
       "categories": [
-        "stat.AP",
         "stat.ME"
       ],
       "announce_type": "cross",
       "source_date": "Thu, 19 Nov 2026 00:00:00 -0500",
       "first_seen": "2026-11-19T15:52:57+00:00",
-      "last_seen": "2026-11-19T15:58:49+00:00",
+      "last_seen": "2026-11-19T16:17:33+00:00",
       "ranking": {
-        "score": 3.0,
-        "rule_score": 3.0,
+        "score": 4.0,
+        "rule_score": 4.0,
         "method": "rules",
-        "keywords": [
-          "Bayesian",
-          "MCMC"
-        ],
+        "keywords": [],
         "preferred_authors": [],
         "topics": [
-          "Bayesian computation"
+          "Networks and covariance estimation",
+          "Optimisation for statistical learning"
         ],
         "lower_priority": [],
         "summary": "",
-        "reason": "Matched topics: Bayesian computation; keyword matches: 2; preferred authors: 0."
+        "reason": "Matched topics: Networks and covariance estimation, Optimisation for statistical learning; keyword matches: 0; preferred authors: 0."
       },
-      "ranking_key": "a8a2af09d1f3135a73617d9ef2fe32bf8b00e3ddf1ce3b0b4926b285ee2e6908"
+      "ranking_key": "105df2f2f3381bf10e2f2e092aaa14f3fd8f4d1a9f310d0d788ff5c9a88acb3f"
+    },
+    {
+      "id": "2611.23820",
+      "url": "https://arxiv.org/abs/2611.23820",
+      "title": "Sensor Monitoring Towards Industry 4.0: Bridging Concepts on the $C_n$ Multivariate Control Chart",
+      "abstract": "The main challenge in monitoring multiple sensors is the high dimensionality that a process can easily reach. From a decision-making perspective, converting these multivariate dynamics into an informative visualization is also not trivial. Statistical Process Control (SPC) techniques detect changes in quality characteristics, but they are difficult to apply beyond the normality (Gaussian) assumption. For instance, the most well-known SPC multivariate control chart is based on Hotelling's $T^2$ statistic, which assumes that the process data follow a multivariate normal distribution (which rarely occurs in practice) and that the observations are serially independent. This study focuses on the multivariate case (dimension $d \\geq 2$), regardless of the data dependence or marginal asymmetry. We propose a new control chart for change detection in copula-based multivariate processes, called the $C_n$-chart, which is based on a density level-set tolerance region built from a copula function, and we derive its run-length properties. The methodology also quantifies the (not necessarily linear) dependence among the variables. Two case studies are presented, one on water quality control and the other on monitoring brass-steel thermostats, complemented by a simulation study of run-length performance and computational cost. The results show that the proposed methodology captures both the association among variables and the anomalies, and that it accommodates variable selection through conditional (regression) modeling of the margins.",
+      "authors": "Diego C. Nascimento, Ana C. S. Batista, Francisco Louzada, Paulo H. Ferreira",
+      "categories": [
+        "stat.AP"
+      ],
+      "announce_type": "new",
+      "source_date": "Thu, 19 Nov 2026 00:00:00 -0500",
+      "first_seen": "2026-11-19T15:52:57+00:00",
+      "last_seen": "2026-11-19T16:17:33+00:00",
+      "ranking": {
+        "score": 2.5,
+        "rule_score": 2.5,
+        "method": "rules",
+        "keywords": [
+          "variable selection"
+        ],
+        "preferred_authors": [],
+        "topics": [
+          "Sparsity and model selection"
+        ],
+        "lower_priority": [],
+        "summary": "",
+        "reason": "Matched topics: Sparsity and model selection; keyword matches: 1; preferred authors: 0."
+      },
+      "ranking_key": "31f6e6730f3ea8f720ebaa343c601f3daee7cade78aa40aa42aa5ce4b15d53c8"
     },
     {
       "id": "2611.24767",
@@ -44,24 +71,23 @@
       "announce_type": "cross",
       "source_date": "Thu, 19 Nov 2026 00:00:00 -0500",
       "first_seen": "2026-11-19T15:52:57+00:00",
-      "last_seen": "2026-11-19T15:58:49+00:00",
+      "last_seen": "2026-11-19T16:17:33+00:00",
       "ranking": {
-        "score": 3.0,
-        "rule_score": 3.0,
+        "score": 2.5,
+        "rule_score": 2.5,
         "method": "rules",
         "keywords": [
-          "Bayesian",
           "variational inference"
         ],
         "preferred_authors": [],
         "topics": [
-          "Bayesian computation"
+          "Variational inference and Bayesian computation"
         ],
         "lower_priority": [],
         "summary": "",
-        "reason": "Matched topics: Bayesian computation; keyword matches: 2; preferred authors: 0."
+        "reason": "Matched topics: Variational inference and Bayesian computation; keyword matches: 1; preferred authors: 0."
       },
-      "ranking_key": "a8356b4ea5540225bd9ced9abdead1450ef627e103e515fbbf26d49425227328"
+      "ranking_key": "b6818164d1839ff2b8f5acfe829d116076dffd1671f49f3c530466e626de90e9"
     },
     {
       "id": "2611.24801",
@@ -77,54 +103,110 @@
       "announce_type": "cross",
       "source_date": "Thu, 19 Nov 2026 00:00:00 -0500",
       "first_seen": "2026-11-19T15:52:57+00:00",
-      "last_seen": "2026-11-19T15:58:49+00:00",
-      "ranking": {
-        "score": 3.0,
-        "rule_score": 3.0,
-        "method": "rules",
-        "keywords": [
-          "Bayesian",
-          "MCMC"
-        ],
-        "preferred_authors": [],
-        "topics": [
-          "Bayesian computation"
-        ],
-        "lower_priority": [],
-        "summary": "",
-        "reason": "Matched topics: Bayesian computation; keyword matches: 2; preferred authors: 0."
-      },
-      "ranking_key": "e056eddbcd67597aed4504ee949efe11c03c32dc643c9fc7ae48af3fe31e24f7"
-    },
-    {
-      "id": "2611.24678",
-      "url": "https://arxiv.org/abs/2611.24678",
-      "title": "Scalable Non-Parametric Bayesian Inference of Free Energy Landscapes and Emission Functions from Observations",
-      "abstract": "Free-energy landscapes govern processes from protein conformational change to climate oscillations, but are typically observed only indirectly, through observables such as FRET intensity or optical-tweezer transmittance. Neither the landscape shape, nor the emission function mapping latent state to signal, is usually known, and distinct states may produce the same signal. We therefore infer landscape and emission function jointly and non-parametrically, using the exact non-linear Bayesian filtering likelihood, to fully use the information contained in observable trajectories that are often noisy, scarce and costly to acquire. A novel parallel-in-time algorithm makes this tractable: it is up to 27 times faster than sequential filtering on one GPU, scales near-ideally across GPUs, and, given enough resources, has runtime independent of trajectory length. We demonstrate the method on a single-protein optical tweezer recording, where distinct conformations produce the same signal, and beyond biology on the El Nino-Southern Oscillation and financial market volatility.",
-      "authors": "Eliane Briand, Helmut Grubm\\\"uller",
-      "categories": [
-        "stat.ME"
-      ],
-      "announce_type": "cross",
-      "source_date": "Thu, 19 Nov 2026 00:00:00 -0500",
-      "first_seen": "2026-11-19T15:52:57+00:00",
-      "last_seen": "2026-11-19T15:58:49+00:00",
+      "last_seen": "2026-11-19T16:17:33+00:00",
       "ranking": {
         "score": 2.5,
         "rule_score": 2.5,
         "method": "rules",
         "keywords": [
-          "Bayesian"
+          "Bayesian computation"
         ],
         "preferred_authors": [],
         "topics": [
-          "Dynamic models"
+          "Variational inference and Bayesian computation"
         ],
         "lower_priority": [],
         "summary": "",
-        "reason": "Matched topics: Dynamic models; keyword matches: 1; preferred authors: 0."
+        "reason": "Matched topics: Variational inference and Bayesian computation; keyword matches: 1; preferred authors: 0."
       },
-      "ranking_key": "ff85a8435e83afec5db118d683f14deffa722d79b36eb5cf4b95622b0d3e59bb"
+      "ranking_key": "d0f2601cc5f9a07001f0c02fcd5b591b3ab931a73332709f110182da0948ea39"
+    },
+    {
+      "id": "2611.24929",
+      "url": "https://arxiv.org/abs/2611.24929",
+      "title": "Improving External Prediction in New Clusters with Mixed-Effects Models: Implications for Multicenter Studies",
+      "abstract": "Prediction models developed from multicenter data are often applied to new centers. A linear mixed model (LMM) captures between-center heterogeneity through random effects. However, a new center's random effect is unknown, so the LMM predicts from fixed effects alone, as does a standard linear model (LM) that ignores clustering. The two models thus differ only in how fixed effects are estimated, and it is unclear whether the LMM predicts better. We decompose the prediction error in a new center into fixed-effect estimation error, between-center variation, and residual variation. Because the last two components are identical for both models, any LMM advantage must come from more precise fixed-effect estimates. In simulations across diverse designs and random-effect structures, the LMM generally achieved lower mean squared error than the LM. Relative gains increased with the number of predictors, between-center heterogeneity, and imbalance in center sizes, and decreased as training data grew. Modeling a random slope yielded additional gains that increased with between-center variation in the predictor effect. In a stress test using held-out eICU hospitals selected for strong outcome heterogeneity, a random-intercept LMM predicted ICU length of stay more accurately than an LM. These findings clarify the conditions under which mixed models can improve prediction in new centers and can inform model development for multicenter studies.",
+      "authors": "Jiawa Zhang, Hyungrok Do, Myeonggyun Lee",
+      "categories": [
+        "stat.ME"
+      ],
+      "announce_type": "new",
+      "source_date": "Thu, 19 Nov 2026 00:00:00 -0500",
+      "first_seen": "2026-11-19T15:52:57+00:00",
+      "last_seen": "2026-11-19T16:17:33+00:00",
+      "ranking": {
+        "score": 2.5,
+        "rule_score": 2.5,
+        "method": "rules",
+        "keywords": [
+          "mixed model"
+        ],
+        "preferred_authors": [],
+        "topics": [
+          "Hierarchical and mixed models"
+        ],
+        "lower_priority": [],
+        "summary": "",
+        "reason": "Matched topics: Hierarchical and mixed models; keyword matches: 1; preferred authors: 0."
+      },
+      "ranking_key": "75554eba51a8c40a7a3a0c47f7cef3a10582c82076c2e70b4d6b060d19f07455"
+    },
+    {
+      "id": "2611.23467",
+      "url": "https://arxiv.org/abs/2611.23467",
+      "title": "Laplace Bayesian transport maps for generative modeling of non-Gaussian climate fields",
+      "abstract": "Transport maps provide a powerful framework for the generative modeling of complex, non-Gaussian spatial fields, such as those encountered in climate science. By mapping a complicated target distribution to a standard Gaussian reference distribution, they can serve as efficient stochastic surrogates. However, current Bayesian transport maps, which are modeled using autoregressive Gaussian processes, typically rely on empirical Bayes estimates that ignore hyperparameter uncertainty. Here, we contrast this point-estimate approach with a fully Bayesian model that provides posterior uncertainty quantification in transport map hyperparameters. To avoid the high cost of Markov chain Monte Carlo (MCMC), we also propose a Laplace approximation to the hyperparameter posteriors, which can be computed at negligible additional computational cost relative to empirical Bayes. We provide numerical evidence and a real-data climate application demonstrating that these Laplace approximations can accurately capture most posterior summaries at a fraction of the cost of MCMC, while maintaining good predictive properties. Thus, our approach offers a scalable, uncertainty-aware framework for the generative modeling of non-Gaussian climate fields.",
+      "authors": "Jacob A. Johnson, Felix Jimenez, Matthias Katzfuss",
+      "categories": [
+        "stat.AP",
+        "stat.ME"
+      ],
+      "announce_type": "cross",
+      "source_date": "Thu, 19 Nov 2026 00:00:00 -0500",
+      "first_seen": "2026-11-19T15:52:57+00:00",
+      "last_seen": "2026-11-19T16:17:33+00:00",
+      "ranking": {
+        "score": 2.0,
+        "rule_score": 2.0,
+        "method": "rules",
+        "keywords": [],
+        "preferred_authors": [],
+        "topics": [
+          "Variational inference and Bayesian computation"
+        ],
+        "lower_priority": [],
+        "summary": "",
+        "reason": "Matched topics: Variational inference and Bayesian computation; keyword matches: 0; preferred authors: 0."
+      },
+      "ranking_key": "c740bc64e94a438c9e3fe2697d3472707bbe0466fa9aeb3e177412d8f265ea9c"
+    },
+    {
+      "id": "2611.23671",
+      "url": "https://arxiv.org/abs/2611.23671",
+      "title": "A Free Lunch: Gradient Averaging Achieves Optimal Statistical Efficiency in Newton Sketch",
+      "abstract": "We study statistical inference for online sketched Newton methods, in which each Newton system is approximately solved by an inner randomized sketching solver. Existing work reveals a computational--statistical trade-off: the sketching solver (and its accelerated variants) reduces the per-step cost of Newton methods from $O(d^3)$ to $O(d^2)$, but the randomness introduced by sketching also inflates the limiting covariance of both the last and the averaged Newton iterates. In this work, we address this trade-off via gradient averaging. We show that simply replacing the stochastic gradient with a moving average at each step can mitigate, and in some cases eliminate, the trade-off in Newton sketch. Importantly, gradient averaging requires no additional oracle evaluations and leaves the contraction bound of the inner sketching solver unchanged. In particular, we prove that the last sketched Newton iterate with gradient averaging attains a limiting covariance no larger than that without gradient averaging, while the averaged iterate even attains the minimax optimal limiting covariance, matching that of the exact Newton method. To our knowledge, this is the first analysis showing that randomness introduced to improve computational efficiency need not compromise statistical efficiency as long as proper gradient estimates are used. The key analytical challenge is that gradient averaging destroys the crucial martingale difference structure underlying central limit theorem arguments. We overcome this challenge by analyzing the coupled two-timescale recursions governing the iterate and the gradient estimator. Numerical experiments on linear and logistic regression support our theoretical covariance comparisons.",
+      "authors": "Haoxuan Wang, Jianliang Ye, Sen Na",
+      "categories": [
+        "stat.CO"
+      ],
+      "announce_type": "cross",
+      "source_date": "Thu, 19 Nov 2026 00:00:00 -0500",
+      "first_seen": "2026-11-19T15:52:57+00:00",
+      "last_seen": "2026-11-19T16:17:33+00:00",
+      "ranking": {
+        "score": 2.0,
+        "rule_score": 2.0,
+        "method": "rules",
+        "keywords": [],
+        "preferred_authors": [],
+        "topics": [
+          "Optimisation for statistical learning"
+        ],
+        "lower_priority": [],
+        "summary": "",
+        "reason": "Matched topics: Optimisation for statistical learning; keyword matches: 0; preferred authors: 0."
+      },
+      "ranking_key": "2940149bf6506714e976b78126e821407ff70b841ea28daa82fb3033e3693ce4"
     },
     {
       "id": "2611.23951",
@@ -139,7 +221,7 @@
       "announce_type": "new",
       "source_date": "Thu, 19 Nov 2026 00:00:00 -0500",
       "first_seen": "2026-11-19T15:52:57+00:00",
-      "last_seen": "2026-11-19T15:58:49+00:00",
+      "last_seen": "2026-11-19T16:17:33+00:00",
       "ranking": {
         "score": 2.0,
         "rule_score": 2.0,
@@ -147,13 +229,13 @@
         "keywords": [],
         "preferred_authors": [],
         "topics": [
-          "Dynamic models"
+          "Dynamic and spatial models"
         ],
         "lower_priority": [],
         "summary": "",
-        "reason": "Matched topics: Dynamic models; keyword matches: 0; preferred authors: 0."
+        "reason": "Matched topics: Dynamic and spatial models; keyword matches: 0; preferred authors: 0."
       },
-      "ranking_key": "39aecca7fe75a3f1134911dd6a8a323669395d35b5a9e2469e8f0867521aa65f"
+      "ranking_key": "4456c4f8fc563a12da3376e6c50adec1aea2b410826baac8d589128f59c73029"
     },
     {
       "id": "2611.24335",
@@ -167,7 +249,7 @@
       "announce_type": "cross",
       "source_date": "Thu, 19 Nov 2026 00:00:00 -0500",
       "first_seen": "2026-11-19T15:52:57+00:00",
-      "last_seen": "2026-11-19T15:58:49+00:00",
+      "last_seen": "2026-11-19T16:17:33+00:00",
       "ranking": {
         "score": 2.0,
         "rule_score": 2.0,
@@ -175,13 +257,13 @@
         "keywords": [],
         "preferred_authors": [],
         "topics": [
-          "Dynamic models"
+          "Dynamic and spatial models"
         ],
         "lower_priority": [],
         "summary": "",
-        "reason": "Matched topics: Dynamic models; keyword matches: 0; preferred authors: 0."
+        "reason": "Matched topics: Dynamic and spatial models; keyword matches: 0; preferred authors: 0."
       },
-      "ranking_key": "8b905e28ffeb379da0da29a01515b44f437f5d3ff2b4114e63616e1bc1436497"
+      "ranking_key": "de924cc1bfca982bb04c1d61e3060bf6301540c045df103586ae73df017849f0"
     },
     {
       "id": "2611.24638",
@@ -195,7 +277,7 @@
       "announce_type": "cross",
       "source_date": "Thu, 19 Nov 2026 00:00:00 -0500",
       "first_seen": "2026-11-19T15:52:57+00:00",
-      "last_seen": "2026-11-19T15:58:49+00:00",
+      "last_seen": "2026-11-19T16:17:33+00:00",
       "ranking": {
         "score": 2.0,
         "rule_score": 2.0,
@@ -203,97 +285,41 @@
         "keywords": [],
         "preferred_authors": [],
         "topics": [
-          "Dynamic models"
+          "Dynamic and spatial models"
         ],
         "lower_priority": [],
         "summary": "",
-        "reason": "Matched topics: Dynamic models; keyword matches: 0; preferred authors: 0."
+        "reason": "Matched topics: Dynamic and spatial models; keyword matches: 0; preferred authors: 0."
       },
-      "ranking_key": "7bc376eec1a82b179fc6bb03fc06561f46bd27e6bea18c56f3089e11743cbc79"
+      "ranking_key": "23b9ea603f7b24b1af176c60884ed86420bdcfe1089303546d19bb6a72bbc7d0"
     },
     {
-      "id": "2611.24929",
-      "url": "https://arxiv.org/abs/2611.24929",
-      "title": "Improving External Prediction in New Clusters with Mixed-Effects Models: Implications for Multicenter Studies",
-      "abstract": "Prediction models developed from multicenter data are often applied to new centers. A linear mixed model (LMM) captures between-center heterogeneity through random effects. However, a new center's random effect is unknown, so the LMM predicts from fixed effects alone, as does a standard linear model (LM) that ignores clustering. The two models thus differ only in how fixed effects are estimated, and it is unclear whether the LMM predicts better. We decompose the prediction error in a new center into fixed-effect estimation error, between-center variation, and residual variation. Because the last two components are identical for both models, any LMM advantage must come from more precise fixed-effect estimates. In simulations across diverse designs and random-effect structures, the LMM generally achieved lower mean squared error than the LM. Relative gains increased with the number of predictors, between-center heterogeneity, and imbalance in center sizes, and decreased as training data grew. Modeling a random slope yielded additional gains that increased with between-center variation in the predictor effect. In a stress test using held-out eICU hospitals selected for strong outcome heterogeneity, a random-intercept LMM predicted ICU length of stay more accurately than an LM. These findings clarify the conditions under which mixed models can improve prediction in new centers and can inform model development for multicenter studies.",
-      "authors": "Jiawa Zhang, Hyungrok Do, Myeonggyun Lee",
+      "id": "2611.24678",
+      "url": "https://arxiv.org/abs/2611.24678",
+      "title": "Scalable Non-Parametric Bayesian Inference of Free Energy Landscapes and Emission Functions from Observations",
+      "abstract": "Free-energy landscapes govern processes from protein conformational change to climate oscillations, but are typically observed only indirectly, through observables such as FRET intensity or optical-tweezer transmittance. Neither the landscape shape, nor the emission function mapping latent state to signal, is usually known, and distinct states may produce the same signal. We therefore infer landscape and emission function jointly and non-parametrically, using the exact non-linear Bayesian filtering likelihood, to fully use the information contained in observable trajectories that are often noisy, scarce and costly to acquire. A novel parallel-in-time algorithm makes this tractable: it is up to 27 times faster than sequential filtering on one GPU, scales near-ideally across GPUs, and, given enough resources, has runtime independent of trajectory length. We demonstrate the method on a single-protein optical tweezer recording, where distinct conformations produce the same signal, and beyond biology on the El Nino-Southern Oscillation and financial market volatility.",
+      "authors": "Eliane Briand, Helmut Grubm\\\"uller",
       "categories": [
         "stat.ME"
-      ],
-      "announce_type": "new",
-      "source_date": "Thu, 19 Nov 2026 00:00:00 -0500",
-      "first_seen": "2026-11-19T15:52:57+00:00",
-      "last_seen": "2026-11-19T15:58:49+00:00",
-      "ranking": {
-        "score": 2.0,
-        "rule_score": 2.0,
-        "method": "rules",
-        "keywords": [],
-        "preferred_authors": [],
-        "topics": [
-          "Latent and mixed models"
-        ],
-        "lower_priority": [],
-        "summary": "",
-        "reason": "Matched topics: Latent and mixed models; keyword matches: 0; preferred authors: 0."
-      },
-      "ranking_key": "3531c13186f67a653df620868d2b082c5ce646ad2858bbca7f7c946bf489cdc1"
-    },
-    {
-      "id": "2611.24159",
-      "url": "https://arxiv.org/abs/2611.24159",
-      "title": "Fast Bayesian Methods for Uncertainty Quantification in Sparse AI Evaluation",
-      "abstract": "Estimating how an AI system will perform on a new benchmark need not require another large model. We use public evaluation counts to choose a weak Beta prior, then update it exactly from at most 31 revealed outcomes. The predictor uses no item semantics, pretrained weights, or inference API. Its single online evaluation in the AIMS competition returned a team-reported Brier ALC of 0.188477, a 24.6% reduction from the constant-0.5 reference. The complete submission is 7,754 bytes; a server microbenchmark measures 12.71 microseconds per prediction with 31 matching labels. We describe how source evaluations are compressed into 301 prior means and show why a concentration of two lets new evidence rapidly determine the prediction. The resulting posterior gives exact uncertainty about the modelled success rate without numerical integration or neural inference. A public evaluation covers 79 system-benchmark pairs and eight seeds, reaching Brier ALC 0.200250 for the submitted method. Accompanying code and sufficient statistics reconstruct the fitted prior byte for byte and replay all 632 evaluation trajectories. The result demonstrates how much predictive value a compact Bayesian model can extract from sparse target feedback at very low online cost.",
-      "authors": "Dario Deniz Ergun, Haohua Wang, Brendon Tao, Jonah Kollenberg, Chen Ye Gan",
-      "categories": [
-        "stat.CO"
       ],
       "announce_type": "cross",
       "source_date": "Thu, 19 Nov 2026 00:00:00 -0500",
       "first_seen": "2026-11-19T15:52:57+00:00",
-      "last_seen": "2026-11-19T15:58:49+00:00",
+      "last_seen": "2026-11-19T16:17:33+00:00",
       "ranking": {
-        "score": 0.5,
-        "rule_score": 0.5,
+        "score": 2.0,
+        "rule_score": 2.0,
         "method": "rules",
-        "keywords": [
-          "Bayesian"
-        ],
+        "keywords": [],
         "preferred_authors": [],
-        "topics": [],
+        "topics": [
+          "Dynamic and spatial models"
+        ],
         "lower_priority": [],
         "summary": "",
-        "reason": "Matched topics: none; keyword matches: 1; preferred authors: 0."
+        "reason": "Matched topics: Dynamic and spatial models; keyword matches: 0; preferred authors: 0."
       },
-      "ranking_key": "d84a670f9c5d26b4cf5745e46cb4af9486c14ad5305e35098bdb905434cc0747"
-    },
-    {
-      "id": "2611.24338",
-      "url": "https://arxiv.org/abs/2611.24338",
-      "title": "Latent space dynamic network actor models with position-rate link",
-      "abstract": "Relational event data record time-stamped interactions between actors. Dynamic network actor models represent each interaction as two separate decisions: when an actor becomes active and whom they select. Modelling these decisions separately cannot establish whether the most active actors are also the most frequently selected. We propose a latent space dynamic network actor model in which sender and receiver positions capture receiver choice, while a position-rate link relates latent positions to activity levels. The link uses two summaries invariant to latent position updates: latent popularity, measuring how much an actor is favoured by others, and excess self-affinity, capturing preference for similar actors beyond that explained by popularity. We adopt a Bayesian modular approach, estimating latent positions from receiver choices alone. Using e-mail data from a manufacturing company, we find that the most active employees are also the most frequently selected recipients. With multiple latent dimensions, preference for similar colleagues contributes less. Latent positions improve receiver-choice prediction, while the position-rate link captures differences in actor activity.",
-      "authors": "Alberto Caimo, Isabella Gollini",
-      "categories": [
-        "stat.ME"
-      ],
-      "announce_type": "new",
-      "source_date": "Thu, 19 Nov 2026 00:00:00 -0500",
-      "first_seen": "2026-11-19T15:52:57+00:00",
-      "last_seen": "2026-11-19T15:58:49+00:00",
-      "ranking": {
-        "score": 0.5,
-        "rule_score": 0.5,
-        "method": "rules",
-        "keywords": [
-          "Bayesian"
-        ],
-        "preferred_authors": [],
-        "topics": [],
-        "lower_priority": [],
-        "summary": "",
-        "reason": "Matched topics: none; keyword matches: 1; preferred authors: 0."
-      },
-      "ranking_key": "fbc23e2adcc1a4a71532318388abf69d4f5e2da2ea13fc2eea7b73c37fd29b9a"
+      "ranking_key": "54e1510071ac9309b15559fb2d3aabd7b2ea2bef0296c42add05b86b7ff9a64a"
     },
     {
       "id": "2611.23419",
@@ -307,7 +333,7 @@
       "announce_type": "cross",
       "source_date": "Thu, 19 Nov 2026 00:00:00 -0500",
       "first_seen": "2026-11-19T15:52:57+00:00",
-      "last_seen": "2026-11-19T15:58:49+00:00",
+      "last_seen": "2026-11-19T16:17:33+00:00",
       "ranking": {
         "score": 0,
         "rule_score": 0,
@@ -319,7 +345,7 @@
         "summary": "",
         "reason": "Matched topics: none; keyword matches: 0; preferred authors: 0."
       },
-      "ranking_key": "398358f6d08dbe40f4aa8921a6f87daf55bb7dd3796760ce8695f9fb8ffb2920"
+      "ranking_key": "e5d9b57b63ae2e9ba60b6f6a20abd4424d27c3ae2369795ddec7c85abbf5cb76"
     },
     {
       "id": "2611.23432",
@@ -333,7 +359,7 @@
       "announce_type": "cross",
       "source_date": "Thu, 19 Nov 2026 00:00:00 -0500",
       "first_seen": "2026-11-19T15:52:57+00:00",
-      "last_seen": "2026-11-19T15:58:49+00:00",
+      "last_seen": "2026-11-19T16:17:33+00:00",
       "ranking": {
         "score": 0,
         "rule_score": 0,
@@ -345,7 +371,7 @@
         "summary": "",
         "reason": "Matched topics: none; keyword matches: 0; preferred authors: 0."
       },
-      "ranking_key": "8138dd2b04aef7f0fd5c42775b146222406465b784dbdfb723c03aa424720e11"
+      "ranking_key": "e38ec73bf25022d4a4b44d52f6e5c9d1babf07aa0c5f918e8b682d3b8f0f7e75"
     },
     {
       "id": "2611.23439",
@@ -359,7 +385,7 @@
       "announce_type": "cross",
       "source_date": "Thu, 19 Nov 2026 00:00:00 -0500",
       "first_seen": "2026-11-19T15:52:57+00:00",
-      "last_seen": "2026-11-19T15:58:49+00:00",
+      "last_seen": "2026-11-19T16:17:33+00:00",
       "ranking": {
         "score": 0,
         "rule_score": 0,
@@ -371,7 +397,7 @@
         "summary": "",
         "reason": "Matched topics: none; keyword matches: 0; preferred authors: 0."
       },
-      "ranking_key": "e470462cc13488d64cd95d9754b8eca686b7e00292820ee2eeb5a4ca768744bb"
+      "ranking_key": "674623fca5bcf624bea77b4e1875d2008d2f7d044933a5cdd63ff0ca0e66c1a9"
     },
     {
       "id": "2611.23459",
@@ -385,7 +411,7 @@
       "announce_type": "new",
       "source_date": "Thu, 19 Nov 2026 00:00:00 -0500",
       "first_seen": "2026-11-19T15:52:57+00:00",
-      "last_seen": "2026-11-19T15:58:49+00:00",
+      "last_seen": "2026-11-19T16:17:33+00:00",
       "ranking": {
         "score": 0,
         "rule_score": 0,
@@ -397,7 +423,7 @@
         "summary": "",
         "reason": "Matched topics: none; keyword matches: 0; preferred authors: 0."
       },
-      "ranking_key": "49f07719a8f451ab72567ddc553ff05ea076e238a5884f5779c3444a6692cd54"
+      "ranking_key": "6509dce73f8a24185ca21118d282be97ab808eab0c80a85737cff616b32b9be2"
     },
     {
       "id": "2611.23524",
@@ -411,7 +437,7 @@
       "announce_type": "new",
       "source_date": "Thu, 19 Nov 2026 00:00:00 -0500",
       "first_seen": "2026-11-19T15:52:57+00:00",
-      "last_seen": "2026-11-19T15:58:49+00:00",
+      "last_seen": "2026-11-19T16:17:33+00:00",
       "ranking": {
         "score": 0,
         "rule_score": 0,
@@ -423,7 +449,7 @@
         "summary": "",
         "reason": "Matched topics: none; keyword matches: 0; preferred authors: 0."
       },
-      "ranking_key": "bf1a8c1d90c79143e3c53475f7e00e14ed3a42fcb88a42238407d481feb14dc1"
+      "ranking_key": "d05a75ba2c2e3166584dc0d2f53da7bad14ec527f0bd2c682e4988247e0b3527"
     },
     {
       "id": "2611.23551",
@@ -437,7 +463,7 @@
       "announce_type": "cross",
       "source_date": "Thu, 19 Nov 2026 00:00:00 -0500",
       "first_seen": "2026-11-19T15:52:57+00:00",
-      "last_seen": "2026-11-19T15:58:49+00:00",
+      "last_seen": "2026-11-19T16:17:33+00:00",
       "ranking": {
         "score": 0,
         "rule_score": 0,
@@ -449,7 +475,7 @@
         "summary": "",
         "reason": "Matched topics: none; keyword matches: 0; preferred authors: 0."
       },
-      "ranking_key": "9ebf16d0f055e0c6d7bcc5e07122f92b6971dfe0ae7e32592abf415283b33e5d"
+      "ranking_key": "607d72737f0bdee53f343a58ced776a011b3b5ea9b54fa4a852491248e74953a"
     },
     {
       "id": "2611.23565",
@@ -463,7 +489,7 @@
       "announce_type": "new",
       "source_date": "Thu, 19 Nov 2026 00:00:00 -0500",
       "first_seen": "2026-11-19T15:52:57+00:00",
-      "last_seen": "2026-11-19T15:58:49+00:00",
+      "last_seen": "2026-11-19T16:17:33+00:00",
       "ranking": {
         "score": 0,
         "rule_score": 0,
@@ -475,7 +501,7 @@
         "summary": "",
         "reason": "Matched topics: none; keyword matches: 0; preferred authors: 0."
       },
-      "ranking_key": "57b41d9da3061ae398a236bd56f3856138a48b5c7c8bcda0463f3ff1157dd400"
+      "ranking_key": "a19153c31f5988560f3ccf737368520c9aba09050700b42fabfdbc3b172797cd"
     },
     {
       "id": "2611.23566",
@@ -489,7 +515,7 @@
       "announce_type": "cross",
       "source_date": "Thu, 19 Nov 2026 00:00:00 -0500",
       "first_seen": "2026-11-19T15:52:57+00:00",
-      "last_seen": "2026-11-19T15:58:49+00:00",
+      "last_seen": "2026-11-19T16:17:33+00:00",
       "ranking": {
         "score": 0,
         "rule_score": 0,
@@ -501,7 +527,7 @@
         "summary": "",
         "reason": "Matched topics: none; keyword matches: 0; preferred authors: 0."
       },
-      "ranking_key": "9ecd0e31784f8648cebc0260d371b751e1e63961245c771c81c27dd0b8f0f169"
+      "ranking_key": "98f79359a26df4a750fd1a434d5df67e673f4655869c16e7320caf1cd194507f"
     },
     {
       "id": "2611.23568",
@@ -515,7 +541,7 @@
       "announce_type": "new",
       "source_date": "Thu, 19 Nov 2026 00:00:00 -0500",
       "first_seen": "2026-11-19T15:52:57+00:00",
-      "last_seen": "2026-11-19T15:58:49+00:00",
+      "last_seen": "2026-11-19T16:17:33+00:00",
       "ranking": {
         "score": 0,
         "rule_score": 0,
@@ -527,7 +553,7 @@
         "summary": "",
         "reason": "Matched topics: none; keyword matches: 0; preferred authors: 0."
       },
-      "ranking_key": "e2751e7c369a7ff722beacde8c50917444ced6a9c57e88a0f94e6d00f1d8923b"
+      "ranking_key": "75c1bd1be3ebcd82e6ac0dfd4607cb3474859e67ee2bf9d54e150f7bab857b44"
     },
     {
       "id": "2611.23638",
@@ -541,7 +567,7 @@
       "announce_type": "cross",
       "source_date": "Thu, 19 Nov 2026 00:00:00 -0500",
       "first_seen": "2026-11-19T15:52:57+00:00",
-      "last_seen": "2026-11-19T15:58:49+00:00",
+      "last_seen": "2026-11-19T16:17:33+00:00",
       "ranking": {
         "score": 0,
         "rule_score": 0,
@@ -553,33 +579,7 @@
         "summary": "",
         "reason": "Matched topics: none; keyword matches: 0; preferred authors: 0."
       },
-      "ranking_key": "cdfc340371502b50230fe47271a510227ed42cab04dec15022eb291006a7238e"
-    },
-    {
-      "id": "2611.23671",
-      "url": "https://arxiv.org/abs/2611.23671",
-      "title": "A Free Lunch: Gradient Averaging Achieves Optimal Statistical Efficiency in Newton Sketch",
-      "abstract": "We study statistical inference for online sketched Newton methods, in which each Newton system is approximately solved by an inner randomized sketching solver. Existing work reveals a computational--statistical trade-off: the sketching solver (and its accelerated variants) reduces the per-step cost of Newton methods from $O(d^3)$ to $O(d^2)$, but the randomness introduced by sketching also inflates the limiting covariance of both the last and the averaged Newton iterates. In this work, we address this trade-off via gradient averaging. We show that simply replacing the stochastic gradient with a moving average at each step can mitigate, and in some cases eliminate, the trade-off in Newton sketch. Importantly, gradient averaging requires no additional oracle evaluations and leaves the contraction bound of the inner sketching solver unchanged. In particular, we prove that the last sketched Newton iterate with gradient averaging attains a limiting covariance no larger than that without gradient averaging, while the averaged iterate even attains the minimax optimal limiting covariance, matching that of the exact Newton method. To our knowledge, this is the first analysis showing that randomness introduced to improve computational efficiency need not compromise statistical efficiency as long as proper gradient estimates are used. The key analytical challenge is that gradient averaging destroys the crucial martingale difference structure underlying central limit theorem arguments. We overcome this challenge by analyzing the coupled two-timescale recursions governing the iterate and the gradient estimator. Numerical experiments on linear and logistic regression support our theoretical covariance comparisons.",
-      "authors": "Haoxuan Wang, Jianliang Ye, Sen Na",
-      "categories": [
-        "stat.CO"
-      ],
-      "announce_type": "cross",
-      "source_date": "Thu, 19 Nov 2026 00:00:00 -0500",
-      "first_seen": "2026-11-19T15:52:57+00:00",
-      "last_seen": "2026-11-19T15:58:49+00:00",
-      "ranking": {
-        "score": 0,
-        "rule_score": 0,
-        "method": "rules",
-        "keywords": [],
-        "preferred_authors": [],
-        "topics": [],
-        "lower_priority": [],
-        "summary": "",
-        "reason": "Matched topics: none; keyword matches: 0; preferred authors: 0."
-      },
-      "ranking_key": "8b91e1282223f62f79b783c13cfcbacc21caa8038cf187e240e657ddcf4c6072"
+      "ranking_key": "7401510ed5ab7a5887839448c0fc1db9437639c021db500536025f7eb19fbc27"
     },
     {
       "id": "2611.23675",
@@ -593,7 +593,7 @@
       "announce_type": "new",
       "source_date": "Thu, 19 Nov 2026 00:00:00 -0500",
       "first_seen": "2026-11-19T15:52:57+00:00",
-      "last_seen": "2026-11-19T15:58:49+00:00",
+      "last_seen": "2026-11-19T16:17:33+00:00",
       "ranking": {
         "score": 0,
         "rule_score": 0,
@@ -605,7 +605,7 @@
         "summary": "",
         "reason": "Matched topics: none; keyword matches: 0; preferred authors: 0."
       },
-      "ranking_key": "177c11abc779766097389912f9129d1d1a3c8d2ccc16ddb4c3b461680093fe27"
+      "ranking_key": "0796702c0511978a0513d427039abf453fdc4c9108fc61aca32be9c7499e5f97"
     },
     {
       "id": "2611.23775",
@@ -619,7 +619,7 @@
       "announce_type": "new",
       "source_date": "Thu, 19 Nov 2026 00:00:00 -0500",
       "first_seen": "2026-11-19T15:52:57+00:00",
-      "last_seen": "2026-11-19T15:58:49+00:00",
+      "last_seen": "2026-11-19T16:17:33+00:00",
       "ranking": {
         "score": 0,
         "rule_score": 0,
@@ -631,7 +631,7 @@
         "summary": "",
         "reason": "Matched topics: none; keyword matches: 0; preferred authors: 0."
       },
-      "ranking_key": "4304a2f0760b62b5970d0f42951837869d6d80259d5bbe14774e67e22809f10e"
+      "ranking_key": "37bce34a314662b47754822042ade06cbf8b31d720236c5952023d225a02ec29"
     },
     {
       "id": "2611.23798",
@@ -645,7 +645,7 @@
       "announce_type": "cross",
       "source_date": "Thu, 19 Nov 2026 00:00:00 -0500",
       "first_seen": "2026-11-19T15:52:57+00:00",
-      "last_seen": "2026-11-19T15:58:49+00:00",
+      "last_seen": "2026-11-19T16:17:33+00:00",
       "ranking": {
         "score": 0,
         "rule_score": 0,
@@ -657,7 +657,7 @@
         "summary": "",
         "reason": "Matched topics: none; keyword matches: 0; preferred authors: 0."
       },
-      "ranking_key": "8cf70be8a8db3c5f148583e716b4ac73bf7fb87dc27407cece7c3691c316a120"
+      "ranking_key": "2f7d479c704da9b907e45de8e0b2b1fa98efaf263b3f8bb678ebc02faa68dadc"
     },
     {
       "id": "2611.23815",
@@ -671,7 +671,7 @@
       "announce_type": "cross",
       "source_date": "Thu, 19 Nov 2026 00:00:00 -0500",
       "first_seen": "2026-11-19T15:52:57+00:00",
-      "last_seen": "2026-11-19T15:58:49+00:00",
+      "last_seen": "2026-11-19T16:17:33+00:00",
       "ranking": {
         "score": 0,
         "rule_score": 0,
@@ -683,59 +683,7 @@
         "summary": "",
         "reason": "Matched topics: none; keyword matches: 0; preferred authors: 0."
       },
-      "ranking_key": "3e91c158b943da433c11cfc09d8c3572eeecd41f267c8b26d8395391908d1958"
-    },
-    {
-      "id": "2611.23820",
-      "url": "https://arxiv.org/abs/2611.23820",
-      "title": "Sensor Monitoring Towards Industry 4.0: Bridging Concepts on the $C_n$ Multivariate Control Chart",
-      "abstract": "The main challenge in monitoring multiple sensors is the high dimensionality that a process can easily reach. From a decision-making perspective, converting these multivariate dynamics into an informative visualization is also not trivial. Statistical Process Control (SPC) techniques detect changes in quality characteristics, but they are difficult to apply beyond the normality (Gaussian) assumption. For instance, the most well-known SPC multivariate control chart is based on Hotelling's $T^2$ statistic, which assumes that the process data follow a multivariate normal distribution (which rarely occurs in practice) and that the observations are serially independent. This study focuses on the multivariate case (dimension $d \\geq 2$), regardless of the data dependence or marginal asymmetry. We propose a new control chart for change detection in copula-based multivariate processes, called the $C_n$-chart, which is based on a density level-set tolerance region built from a copula function, and we derive its run-length properties. The methodology also quantifies the (not necessarily linear) dependence among the variables. Two case studies are presented, one on water quality control and the other on monitoring brass-steel thermostats, complemented by a simulation study of run-length performance and computational cost. The results show that the proposed methodology captures both the association among variables and the anomalies, and that it accommodates variable selection through conditional (regression) modeling of the margins.",
-      "authors": "Diego C. Nascimento, Ana C. S. Batista, Francisco Louzada, Paulo H. Ferreira",
-      "categories": [
-        "stat.AP"
-      ],
-      "announce_type": "new",
-      "source_date": "Thu, 19 Nov 2026 00:00:00 -0500",
-      "first_seen": "2026-11-19T15:52:57+00:00",
-      "last_seen": "2026-11-19T15:58:49+00:00",
-      "ranking": {
-        "score": 0,
-        "rule_score": 0,
-        "method": "rules",
-        "keywords": [],
-        "preferred_authors": [],
-        "topics": [],
-        "lower_priority": [],
-        "summary": "",
-        "reason": "Matched topics: none; keyword matches: 0; preferred authors: 0."
-      },
-      "ranking_key": "0165cc2d3ebfb5d75298d8e522eb0adb845ce677fe305d7921ea318f497bdf91"
-    },
-    {
-      "id": "2611.23877",
-      "url": "https://arxiv.org/abs/2611.23877",
-      "title": "Infinity-Wasserstein Distributionally Robust Principal Component Analysis: Exact Reformulation, Finite-Sample Guarantee, and Efficient Algorithm",
-      "abstract": "Principal component analysis (PCA) is a fundamental and ubiquitous technique for dimension reduction and representation learning, yet its empirical formulation remains vulnerable to distributional uncertainty. While distributionally robust optimization (DRO) offers a natural remedy, existing order-2 Wasserstein models of PCA either preserve the nominal PCA subspace or lack an exact reformulation. This paper demonstrates how the infinity-Wasserstein distance can reconcile these two desirable properties. For the resulting DRO model of PCA, we derive an exact finite-dimensional reformulation and explicitly identify a worst-case distribution attaining the inner maximum. Crucially, the reformulated objective retains samplewise residual information beyond the empirical covariance matrix, revealing a mechanism through which distributional robustness can reshape the learned principal subspace. Under the mild assumption that the true distribution has a finite fourth moment, we further establish a uniform finite-sample performance guarantee for the proposed model. An iteratively reweighted majorization-minimization algorithm is also developed to solve the resulting nonconvex and nonsmooth optimization problem, with a rigorous analysis of its convergence properties. Numerical experiments substantiate the computational efficiency of the proposed algorithm and the practical effectiveness of the infinity-Wasserstein model in downstream applications.",
-      "authors": "Zhouxing Luo, Lei Wang, Xin Liu",
-      "categories": [
-        "stat.ME"
-      ],
-      "announce_type": "cross",
-      "source_date": "Thu, 19 Nov 2026 00:00:00 -0500",
-      "first_seen": "2026-11-19T15:52:57+00:00",
-      "last_seen": "2026-11-19T15:58:49+00:00",
-      "ranking": {
-        "score": 0,
-        "rule_score": 0,
-        "method": "rules",
-        "keywords": [],
-        "preferred_authors": [],
-        "topics": [],
-        "lower_priority": [],
-        "summary": "",
-        "reason": "Matched topics: none; keyword matches: 0; preferred authors: 0."
-      },
-      "ranking_key": "8aff0edff6545be5d9365eabd0b09181dc2caaaa0bc4589338fc9326d459b10c"
+      "ranking_key": "bced4914cc1160be2537344cbb894426d2eba01b8c9534cab215b572957cc6b2"
     },
     {
       "id": "2611.24015",
@@ -749,7 +697,7 @@
       "announce_type": "cross",
       "source_date": "Thu, 19 Nov 2026 00:00:00 -0500",
       "first_seen": "2026-11-19T15:52:57+00:00",
-      "last_seen": "2026-11-19T15:58:49+00:00",
+      "last_seen": "2026-11-19T16:17:33+00:00",
       "ranking": {
         "score": 0,
         "rule_score": 0,
@@ -761,7 +709,7 @@
         "summary": "",
         "reason": "Matched topics: none; keyword matches: 0; preferred authors: 0."
       },
-      "ranking_key": "58ff58bf5ea90569f56d2ec183c0e41c042f75b8dec0b93c9107caeef6318113"
+      "ranking_key": "49a387ce47cd891edf9a89af9b68be049c2b8e3570dc9734c5745150cb19c3ac"
     },
     {
       "id": "2611.24031",
@@ -775,7 +723,7 @@
       "announce_type": "new",
       "source_date": "Thu, 19 Nov 2026 00:00:00 -0500",
       "first_seen": "2026-11-19T15:52:57+00:00",
-      "last_seen": "2026-11-19T15:58:49+00:00",
+      "last_seen": "2026-11-19T16:17:33+00:00",
       "ranking": {
         "score": 0,
         "rule_score": 0,
@@ -787,7 +735,7 @@
         "summary": "",
         "reason": "Matched topics: none; keyword matches: 0; preferred authors: 0."
       },
-      "ranking_key": "2a5d952b579c6c65a744a1f089d59b7f9c31b23af2e6a393d503624fa3694a3b"
+      "ranking_key": "370d7743542fe3f3773d389cb6cbad50f0539e08d4871e1a71b308d892455dab"
     },
     {
       "id": "2611.24109",
@@ -801,7 +749,7 @@
       "announce_type": "cross",
       "source_date": "Thu, 19 Nov 2026 00:00:00 -0500",
       "first_seen": "2026-11-19T15:52:57+00:00",
-      "last_seen": "2026-11-19T15:58:49+00:00",
+      "last_seen": "2026-11-19T16:17:33+00:00",
       "ranking": {
         "score": 0,
         "rule_score": 0,
@@ -813,7 +761,7 @@
         "summary": "",
         "reason": "Matched topics: none; keyword matches: 0; preferred authors: 0."
       },
-      "ranking_key": "9c5569ebe2258991b80af66b80697a848ea73b6833ebf8967be5eeb1d318b6fd"
+      "ranking_key": "692f41a689c012fd407d8612e1ffd05fd92cf4c0203ffc92572aabfd7b44d60f"
     },
     {
       "id": "2611.24143",
@@ -827,7 +775,7 @@
       "announce_type": "new",
       "source_date": "Thu, 19 Nov 2026 00:00:00 -0500",
       "first_seen": "2026-11-19T15:52:57+00:00",
-      "last_seen": "2026-11-19T15:58:49+00:00",
+      "last_seen": "2026-11-19T16:17:33+00:00",
       "ranking": {
         "score": 0,
         "rule_score": 0,
@@ -839,7 +787,33 @@
         "summary": "",
         "reason": "Matched topics: none; keyword matches: 0; preferred authors: 0."
       },
-      "ranking_key": "127787741794de86175411d82b1d5dfa2a1cd6ca3b744acfb0db24e68c23a341"
+      "ranking_key": "4ac3fc594ba88b4d2b5de61b447aae0d0c32e4b00b0d0bcae4b9dd397e36735d"
+    },
+    {
+      "id": "2611.24159",
+      "url": "https://arxiv.org/abs/2611.24159",
+      "title": "Fast Bayesian Methods for Uncertainty Quantification in Sparse AI Evaluation",
+      "abstract": "Estimating how an AI system will perform on a new benchmark need not require another large model. We use public evaluation counts to choose a weak Beta prior, then update it exactly from at most 31 revealed outcomes. The predictor uses no item semantics, pretrained weights, or inference API. Its single online evaluation in the AIMS competition returned a team-reported Brier ALC of 0.188477, a 24.6% reduction from the constant-0.5 reference. The complete submission is 7,754 bytes; a server microbenchmark measures 12.71 microseconds per prediction with 31 matching labels. We describe how source evaluations are compressed into 301 prior means and show why a concentration of two lets new evidence rapidly determine the prediction. The resulting posterior gives exact uncertainty about the modelled success rate without numerical integration or neural inference. A public evaluation covers 79 system-benchmark pairs and eight seeds, reaching Brier ALC 0.200250 for the submitted method. Accompanying code and sufficient statistics reconstruct the fitted prior byte for byte and replay all 632 evaluation trajectories. The result demonstrates how much predictive value a compact Bayesian model can extract from sparse target feedback at very low online cost.",
+      "authors": "Dario Deniz Ergun, Haohua Wang, Brendon Tao, Jonah Kollenberg, Chen Ye Gan",
+      "categories": [
+        "stat.CO"
+      ],
+      "announce_type": "cross",
+      "source_date": "Thu, 19 Nov 2026 00:00:00 -0500",
+      "first_seen": "2026-11-19T15:52:57+00:00",
+      "last_seen": "2026-11-19T16:17:33+00:00",
+      "ranking": {
+        "score": 0,
+        "rule_score": 0,
+        "method": "rules",
+        "keywords": [],
+        "preferred_authors": [],
+        "topics": [],
+        "lower_priority": [],
+        "summary": "",
+        "reason": "Matched topics: none; keyword matches: 0; preferred authors: 0."
+      },
+      "ranking_key": "c37cd44ac2a8d02d153eb4f42afc9261d03a71f995eeaa972c4d3797d7c38b72"
     },
     {
       "id": "2611.24172",
@@ -853,7 +827,7 @@
       "announce_type": "new",
       "source_date": "Thu, 19 Nov 2026 00:00:00 -0500",
       "first_seen": "2026-11-19T15:52:57+00:00",
-      "last_seen": "2026-11-19T15:58:49+00:00",
+      "last_seen": "2026-11-19T16:17:33+00:00",
       "ranking": {
         "score": 0,
         "rule_score": 0,
@@ -865,7 +839,7 @@
         "summary": "",
         "reason": "Matched topics: none; keyword matches: 0; preferred authors: 0."
       },
-      "ranking_key": "9e4d1d9dc23e4f2c08357c2e0577b33a49d954e55af5a0331e12ee23a6f0bae0"
+      "ranking_key": "19472d161c921ff381910223f35d61e176f49c099f6dc71755f0bab13b244ee0"
     },
     {
       "id": "2611.24198",
@@ -879,7 +853,7 @@
       "announce_type": "new",
       "source_date": "Thu, 19 Nov 2026 00:00:00 -0500",
       "first_seen": "2026-11-19T15:52:57+00:00",
-      "last_seen": "2026-11-19T15:58:49+00:00",
+      "last_seen": "2026-11-19T16:17:33+00:00",
       "ranking": {
         "score": 0,
         "rule_score": 0,
@@ -891,7 +865,33 @@
         "summary": "",
         "reason": "Matched topics: none; keyword matches: 0; preferred authors: 0."
       },
-      "ranking_key": "e0e8e1ed35c77c8b43c77f16442f92c6948fa964720c7f4b04e6fed3d4752f99"
+      "ranking_key": "48da9c552ef66eb79322d3a481a67cc963a893bfc1c0392ef98fcf14f306ae51"
+    },
+    {
+      "id": "2611.24338",
+      "url": "https://arxiv.org/abs/2611.24338",
+      "title": "Latent space dynamic network actor models with position-rate link",
+      "abstract": "Relational event data record time-stamped interactions between actors. Dynamic network actor models represent each interaction as two separate decisions: when an actor becomes active and whom they select. Modelling these decisions separately cannot establish whether the most active actors are also the most frequently selected. We propose a latent space dynamic network actor model in which sender and receiver positions capture receiver choice, while a position-rate link relates latent positions to activity levels. The link uses two summaries invariant to latent position updates: latent popularity, measuring how much an actor is favoured by others, and excess self-affinity, capturing preference for similar actors beyond that explained by popularity. We adopt a Bayesian modular approach, estimating latent positions from receiver choices alone. Using e-mail data from a manufacturing company, we find that the most active employees are also the most frequently selected recipients. With multiple latent dimensions, preference for similar colleagues contributes less. Latent positions improve receiver-choice prediction, while the position-rate link captures differences in actor activity.",
+      "authors": "Alberto Caimo, Isabella Gollini",
+      "categories": [
+        "stat.ME"
+      ],
+      "announce_type": "new",
+      "source_date": "Thu, 19 Nov 2026 00:00:00 -0500",
+      "first_seen": "2026-11-19T15:52:57+00:00",
+      "last_seen": "2026-11-19T16:17:33+00:00",
+      "ranking": {
+        "score": 0,
+        "rule_score": 0,
+        "method": "rules",
+        "keywords": [],
+        "preferred_authors": [],
+        "topics": [],
+        "lower_priority": [],
+        "summary": "",
+        "reason": "Matched topics: none; keyword matches: 0; preferred authors: 0."
+      },
+      "ranking_key": "9b8595e6f29aecd268e2c930272c365aa4a68541dfcab32aa9e9f26eb4eb7514"
     },
     {
       "id": "2611.24402",
@@ -905,7 +905,7 @@
       "announce_type": "cross",
       "source_date": "Thu, 19 Nov 2026 00:00:00 -0500",
       "first_seen": "2026-11-19T15:52:57+00:00",
-      "last_seen": "2026-11-19T15:58:49+00:00",
+      "last_seen": "2026-11-19T16:17:33+00:00",
       "ranking": {
         "score": 0,
         "rule_score": 0,
@@ -917,7 +917,7 @@
         "summary": "",
         "reason": "Matched topics: none; keyword matches: 0; preferred authors: 0."
       },
-      "ranking_key": "3c87f51def755a245a23607138f3fa135e97217062a0ed92f697b050e6da1fa1"
+      "ranking_key": "b5c4ff6bdf737ca864540506b3861006c85426c9221e87cffe667a9973bfc855"
     },
     {
       "id": "2611.24438",
@@ -931,7 +931,7 @@
       "announce_type": "new",
       "source_date": "Thu, 19 Nov 2026 00:00:00 -0500",
       "first_seen": "2026-11-19T15:52:57+00:00",
-      "last_seen": "2026-11-19T15:58:49+00:00",
+      "last_seen": "2026-11-19T16:17:33+00:00",
       "ranking": {
         "score": 0,
         "rule_score": 0,
@@ -943,7 +943,7 @@
         "summary": "",
         "reason": "Matched topics: none; keyword matches: 0; preferred authors: 0."
       },
-      "ranking_key": "ef02b7704f4bebfeb41a166d2addf0d7b2acf502c1cd84ca46c97f7413065390"
+      "ranking_key": "00d91bc9b4d8db7b56a001539cf7df4b874cbe0eb5a8458201c4705a3517cf53"
     },
     {
       "id": "2611.24463",
@@ -957,7 +957,7 @@
       "announce_type": "new",
       "source_date": "Thu, 19 Nov 2026 00:00:00 -0500",
       "first_seen": "2026-11-19T15:52:57+00:00",
-      "last_seen": "2026-11-19T15:58:49+00:00",
+      "last_seen": "2026-11-19T16:17:33+00:00",
       "ranking": {
         "score": 0,
         "rule_score": 0,
@@ -969,7 +969,7 @@
         "summary": "",
         "reason": "Matched topics: none; keyword matches: 0; preferred authors: 0."
       },
-      "ranking_key": "e3d14157539f0ab9184c49feb83149a89f3e4a080d7621ae5d53f3de9f38820e"
+      "ranking_key": "b0cdabc5929dc1403ec805d521ac5d1447d72afc4cc076dabf5f3c306067ed67"
     },
     {
       "id": "2611.24555",
@@ -983,7 +983,7 @@
       "announce_type": "new",
       "source_date": "Thu, 19 Nov 2026 00:00:00 -0500",
       "first_seen": "2026-11-19T15:52:57+00:00",
-      "last_seen": "2026-11-19T15:58:49+00:00",
+      "last_seen": "2026-11-19T16:17:33+00:00",
       "ranking": {
         "score": 0,
         "rule_score": 0,
@@ -995,7 +995,7 @@
         "summary": "",
         "reason": "Matched topics: none; keyword matches: 0; preferred authors: 0."
       },
-      "ranking_key": "6f0b5f10a76e5a2c5eeb7ec9d2a567f150bfaa7bd88da467ab49b1525913bffa"
+      "ranking_key": "a435d3a9d2bcc0ce22fb93345e52e0bc0157d58a7d4263d259d4c351f86a8fc1"
     },
     {
       "id": "2611.24714",
@@ -1009,7 +1009,7 @@
       "announce_type": "cross",
       "source_date": "Thu, 19 Nov 2026 00:00:00 -0500",
       "first_seen": "2026-11-19T15:52:57+00:00",
-      "last_seen": "2026-11-19T15:58:49+00:00",
+      "last_seen": "2026-11-19T16:17:33+00:00",
       "ranking": {
         "score": 0,
         "rule_score": 0,
@@ -1021,7 +1021,7 @@
         "summary": "",
         "reason": "Matched topics: none; keyword matches: 0; preferred authors: 0."
       },
-      "ranking_key": "6c28961e3da050a618653f8d77977f3a7d893e8b53b115a0c35d97225309bfcf"
+      "ranking_key": "d9d8e1dcb3844d868da0a9735627ff72ea53acdfe47f6ef49ff8cab305fc23d8"
     },
     {
       "id": "2611.24758",
@@ -1035,7 +1035,7 @@
       "announce_type": "cross",
       "source_date": "Thu, 19 Nov 2026 00:00:00 -0500",
       "first_seen": "2026-11-19T15:52:57+00:00",
-      "last_seen": "2026-11-19T15:58:49+00:00",
+      "last_seen": "2026-11-19T16:17:33+00:00",
       "ranking": {
         "score": 0,
         "rule_score": 0,
@@ -1047,7 +1047,7 @@
         "summary": "",
         "reason": "Matched topics: none; keyword matches: 0; preferred authors: 0."
       },
-      "ranking_key": "37b69060568fd3bef800571649910633ce64bc8754c4e775152ed36ae4a20501"
+      "ranking_key": "55c1e771af5bc0330d2777a82598b6e627609a9c4d58664274be73a473893056"
     },
     {
       "id": "2611.24821",
@@ -1061,7 +1061,7 @@
       "announce_type": "new",
       "source_date": "Thu, 19 Nov 2026 00:00:00 -0500",
       "first_seen": "2026-11-19T15:52:57+00:00",
-      "last_seen": "2026-11-19T15:58:49+00:00",
+      "last_seen": "2026-11-19T16:17:33+00:00",
       "ranking": {
         "score": 0,
         "rule_score": 0,
@@ -1073,11 +1073,11 @@
         "summary": "",
         "reason": "Matched topics: none; keyword matches: 0; preferred authors: 0."
       },
-      "ranking_key": "b829cf2c567c8177d0a871c1e9f1a4d27e9c625372833bea03ed2261e81079f3"
+      "ranking_key": "130881dbc6065ea5b8efedee39087ca2080a7184bb715b0e48f0bc8b213ee8be"
     }
   ],
   "status": {
-    "last_success": "2026-11-19T15:58:49+00:00",
+    "last_success": "2026-11-19T16:17:33+00:00",
     "warnings": []
   }
 }
