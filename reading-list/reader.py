@@ -224,7 +224,7 @@ def render(papers,cfg,status,output,library=None):
         reason=e(r['reason']);summary=e(r['summary'])
         match=e(', '.join(r['preferred_authors']))
         return ('<article class="paper" data-paper-id="'+e(p['id'])+'"><div class="paper-meta">'+
-          e(' · '.join(p['categories']))+' · '+e(('Submitted '+p['source_date'][:10]) if p.get('source_date') else ('Collected '+p['first_seen'][:10]))+' · '+
+          e(' · '.join(p['categories']))+' · '+e(('Submitted '+iso(parse_date(p['source_date']))[:10]) if parse_date(p.get('source_date','')) else ('Collected '+p['first_seen'][:10]))+' · '+
           ('LLM-assisted' if r['method']=='llm' else 'Rule-ranked')+'</div><h2><a href="'+e(p['url'])+'">'+e(p['title'])+'</a></h2>'+
           '<p class="paper-authors">'+e(p['authors'])+'</p><div class="paper-tags">'+tags+'</div>'+
           '<p><strong>Relevance '+str(round(r['score'],1))+'/10.</strong> '+reason+'</p>'+
