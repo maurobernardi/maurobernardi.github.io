@@ -54,7 +54,7 @@ class ReaderTests(unittest.TestCase):
     def test_rules(self):
         score=r.rule_score(paper(),CFG)
         self.assertEqual(score['method'],'rules');self.assertTrue(0<=score['score']<=10)
-        self.assertIn('Bayesian computation',score['topics']);self.assertIn('Andrew Gelman',score['preferred_authors'])
+        self.assertIn('Variational inference and Bayesian computation',score['topics']);self.assertIn('Andrew Gelman',score['preferred_authors'])
     def test_missing_key_fallback(self):
         rows,w=r.rank([paper()],CFG,enabled=True)
         self.assertEqual(rows[0]['ranking']['method'],'rules');self.assertTrue(w)

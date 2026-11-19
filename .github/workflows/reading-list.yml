@@ -6,6 +6,7 @@ on:
     paths:
       - "docs/**"
       - ".github/workflows/reading-list.yml"
+      - "reading-list/**"
   schedule:
     # UTC: around 08:43 in winter / 09:43 in summer in Rome; not an exact delivery promise.
     - cron: '43 7 * * 1-5'
