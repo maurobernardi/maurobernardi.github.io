@@ -211,16 +211,20 @@ def atomic_json(path,obj):
     tmp.write_text(json.dumps(obj,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
     tmp.replace(path)
 
-def render(papers,cfg,status,output):
+def render(papers,cfg,status,output,library=None):
+    if library is None:
+        library_path=HERE/"data/library.json"
+        library=json.loads(library_path.read_text()) if library_path.exists() else {}
     ranked=sorted(papers,key=lambda p:(-p.get('ranking',{}).get('score',0),-parse_date(p['first_seen']).timestamp(),p['id']))
-    shortlisted=[p for p in ranked if p['ranking']['score']>=cfg['minimum_score']][:cfg['shortlist_size']]
+    relevant=[p for p in ranked if p['ranking']['score']>=cfg['minimum_score']]
+    shortlisted=relevant[:cfg['shortlist_size']]
     def card(p):
         r=p['ranking'];e=escape
         tags=''.join('<span class="paper-tag">'+e(t)+'</span>' for t in r['topics'])
         reason=e(r['reason']);summary=e(r['summary'])
         match=e(', '.join(r['preferred_authors']))
         return ('<article class="paper" data-paper-id="'+e(p['id'])+'"><div class="paper-meta">'+
-          e(' · '.join(p['categories']))+' · '+e(p['first_seen'][:10])+' · '+
+          e(' · '.join(p['categories']))+' · '+e(('Submitted '+p['source_date'][:10]) if p.get('source_date') else ('Collected '+p['first_seen'][:10]))+' · '+
           ('LLM-assisted' if r['method']=='llm' else 'Rule-ranked')+'</div><h2><a href="'+e(p['url'])+'">'+e(p['title'])+'</a></h2>'+
           '<p class="paper-authors">'+e(p['authors'])+'</p><div class="paper-tags">'+tags+'</div>'+
           '<p><strong>Relevance '+str(round(r['score'],1))+'/10.</strong> '+reason+'</p>'+
@@ -235,6 +239,15 @@ def render(papers,cfg,status,output):
     warn=''.join('<p class="reader-warning">'+escape(w)+'</p>' for w in status.get('warnings',[]))
     content=''.join(card(p) for p in shortlisted) or '<p class="empty-state">No papers meet the shortlist threshold in the current local data. After activation, each successful run will refresh this page.</p>'
     archive=''.join(card(p) for p in ranked) or '<p>No papers have been collected yet.</p>'
+    all_relevant=''.join(card(p) for p in relevant) or '<p>No relevant recent papers have been collected yet.</p>'
+    library_papers=[]
+    for p in library.get('papers',[]):
+        p=dict(p);p['ranking']=rule_score(p,cfg)
+        if p['ranking']['score']>=cfg['minimum_score']:library_papers.append(p)
+    library_papers.sort(key=lambda p:(-p['ranking']['score'],p['id']))
+    library_content=''.join(card(p) for p in library_papers) or '<p>The historical library will populate after its first successful search.</p>'
+    library_warnings=''.join('<p class="reader-warning">'+escape(w)+'</p>' for w in library.get('warnings',[]))
+    library_date='<p>Last successful historical search: '+escape(library['last_success'])+'.</p>' if library.get('last_success') else ''
     topics='; '.join(escape(x) for x in cfg['topics'])
     body=('<h1>Reading list</h1><p class="subtitle">A personal arXiv digest · Mauro Bernardi</p><p>'+intro+'</p>'+warn+
           '<p>The reader monitors '+escape(', '.join(cfg['categories']))+' and ranks titles and abstracts against my research interests. Scores express relevance to this profile, not scientific quality or a probability of correctness.</p>'+
@@ -243,7 +256,11 @@ def render(papers,cfg,status,output):
           '<p>Titles and abstracts are matched to thematic terms; followed authors provide an additional relevance signal, but are not required for selection. The shortlist contains at most '+str(cfg['shortlist_size'])+' papers scoring at least '+str(cfg['minimum_score'])+'/10. Scores indicate relevance to these interests, not scientific quality.</p>'+
           '<p>Collected papers remain available for '+str(cfg['retention_days'])+' days from their first appearance here. Cross-listed papers are deduplicated and revisions are excluded by default. Each article identifies whether its ranking uses rules or an optional language model.</p></details>'+
           '<div class="reader-controls"><label>Filter papers <input id="paper-search" type="search" placeholder="Title, author or topic"></label><label><input id="saved-only" type="checkbox"> Saved only</label></div><p id="save-status" role="status"></p>'+
-          '<section aria-labelledby="shortlist"><h2 id="shortlist">Shortlist</h2>'+content+'</section><details class="reader-archive"><summary>All collected papers ('+str(len(ranked))+')</summary>'+archive+'</details>')
+          '<section aria-labelledby="shortlist"><h2 id="shortlist">Shortlist</h2><p>The '+str(cfg['shortlist_size'])+' highest-ranked relevant papers from the recent collection, or fewer when the threshold is not met.</p>'+content+'</section>'+
+          '<details class="reader-archive"><summary>All relevant recent papers ('+str(len(relevant))+')</summary><p>Every recent paper above the relevance threshold, including those in the shortlist.</p>'+all_relevant+'</details>'+
+          '<details class="reader-archive"><summary>All collected recent papers ('+str(len(ranked))+')</summary>'+archive+'</details>'+
+          '<section aria-labelledby="historical-library"><h2 id="historical-library">Thematic arXiv library</h2><p>A persistent collection of relevant papers from topic-based searches and daily feeds. Records do not expire after seven days. Historical searches are bounded and expanded progressively; this is not an exhaustive catalogue of arXiv.</p>'+library_date+library_warnings+
+          '<details class="reader-archive"><summary>Browse relevant historical papers ('+str(len(library_papers))+')</summary><p>Historical searches examine up to 500 results per thematic query, in batches of 100, across stat.ME, stat.CO, stat.AP, stat.ML and math.ST. The same relevance threshold is applied using rule-based ranking. Topics rotate across updates; publication dates are shown separately from collection dates.</p>'+library_content+'</details></section>')
     # Reuse the academic site's shell, without depending on R or Pandoc in scheduled jobs.
     shell=(ROOT/'docs/index.html').read_text(encoding='utf-8')
     shell=re.sub(r'<title>.*?</title>','<title>Reading list · Mauro Bernardi</title>',shell,flags=re.S)

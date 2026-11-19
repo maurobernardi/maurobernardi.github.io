@@ -180,5 +180,55 @@
   "llm": {
     "enabled": false,
     "max_candidates": 40
+  },
+  "library": {
+    "categories": [
+      "stat.ME",
+      "stat.CO",
+      "stat.AP",
+      "stat.ML",
+      "math.ST"
+    ],
+    "page_size": 100,
+    "max_results_per_query": 500,
+    "queries": {
+      "Quantile regression": [
+        "quantile regression",
+        "distributional regression"
+      ],
+      "Variational inference": [
+        "variational inference",
+        "variational Bayes"
+      ],
+      "Sparsity and selection": [
+        "adaptive lasso",
+        "group lasso",
+        "variable selection",
+        "degrees of freedom"
+      ],
+      "Functional data": [
+        "functional regression",
+        "functional data analysis"
+      ],
+      "Networks and covariance": [
+        "graphical models",
+        "covariance estimation",
+        "precision matrix"
+      ],
+      "Hierarchical models": [
+        "generalized linear mixed models",
+        "hierarchical models"
+      ],
+      "Dynamic models": [
+        "state space models",
+        "dynamic models"
+      ],
+      "Optimisation": [
+        "ADMM",
+        "majorization-minimization",
+        "MM algorithm",
+        "proximal gradient"
+      ]
+    }
   }
 }

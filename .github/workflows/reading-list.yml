@@ -17,6 +17,7 @@ concurrency:
   cancel-in-progress: false
 jobs:
   collect:
+    timeout-minutes: 25
     runs-on: ubuntu-latest
     permissions:
       contents: write
@@ -35,13 +36,15 @@ jobs:
           NVIDIA_API_KEY: ${{ secrets.NVIDIA_API_KEY }}
           READING_LLM_MODEL: ${{ vars.READING_LLM_MODEL }}
           READING_USE_LLM: ${{ vars.READING_USE_LLM }}
-        run: python reading-list/reader.py
+        run: |
+          python reading-list/reader.py
+          python reading-list/library.py
       - name: Preserve paper history and the generated page
         if: github.event_name != 'push'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add reading-list/data/papers.json docs/reading-list.html
+          git add reading-list/data/papers.json reading-list/data/library.json docs/reading-list.html
           if ! git diff --cached --quiet; then
             git commit -m "Update arXiv reading list"
             git push origin HEAD:main
