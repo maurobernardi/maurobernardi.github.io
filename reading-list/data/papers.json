@@ -12,7 +12,7 @@
       "announce_type": "cross",
       "source_date": "Thu, 19 Nov 2026 00:00:00 -0500",
       "first_seen": "2026-11-19T15:52:57+00:00",
-      "last_seen": "2026-11-19T16:17:33+00:00",
+      "last_seen": "2026-11-19T16:58:24+00:00",
       "ranking": {
         "score": 4.0,
         "rule_score": 4.0,
@@ -27,7 +27,7 @@
         "summary": "",
         "reason": "Matched topics: Networks and covariance estimation, Optimisation for statistical learning; keyword matches: 0; preferred authors: 0."
       },
-      "ranking_key": "105df2f2f3381bf10e2f2e092aaa14f3fd8f4d1a9f310d0d788ff5c9a88acb3f"
+      "ranking_key": "d62d5e552e792bb574ff6216f9b14c0eb34148490a6084a5c6e5cd2973e07e3f"
     },
     {
       "id": "2611.23820",
@@ -41,7 +41,7 @@
       "announce_type": "new",
       "source_date": "Thu, 19 Nov 2026 00:00:00 -0500",
       "first_seen": "2026-11-19T15:52:57+00:00",
-      "last_seen": "2026-11-19T16:17:33+00:00",
+      "last_seen": "2026-11-19T16:58:24+00:00",
       "ranking": {
         "score": 2.5,
         "rule_score": 2.5,
@@ -57,7 +57,7 @@
         "summary": "",
         "reason": "Matched topics: Sparsity and model selection; keyword matches: 1; preferred authors: 0."
       },
-      "ranking_key": "31f6e6730f3ea8f720ebaa343c601f3daee7cade78aa40aa42aa5ce4b15d53c8"
+      "ranking_key": "c7d7ebe2c766603f684e44dc755481f079fda08db6f1cf779ef1cd426f7d04c7"
     },
     {
       "id": "2611.24767",
@@ -71,7 +71,7 @@
       "announce_type": "cross",
       "source_date": "Thu, 19 Nov 2026 00:00:00 -0500",
       "first_seen": "2026-11-19T15:52:57+00:00",
-      "last_seen": "2026-11-19T16:17:33+00:00",
+      "last_seen": "2026-11-19T16:58:24+00:00",
       "ranking": {
         "score": 2.5,
         "rule_score": 2.5,
@@ -87,7 +87,7 @@
         "summary": "",
         "reason": "Matched topics: Variational inference and Bayesian computation; keyword matches: 1; preferred authors: 0."
       },
-      "ranking_key": "b6818164d1839ff2b8f5acfe829d116076dffd1671f49f3c530466e626de90e9"
+      "ranking_key": "6a4c684db9422d7613e803bfbe62a08d643e2a39545ec0ce7620a3b35f27c407"
     },
     {
       "id": "2611.24801",
@@ -103,7 +103,7 @@
       "announce_type": "cross",
       "source_date": "Thu, 19 Nov 2026 00:00:00 -0500",
       "first_seen": "2026-11-19T15:52:57+00:00",
-      "last_seen": "2026-11-19T16:17:33+00:00",
+      "last_seen": "2026-11-19T16:58:24+00:00",
       "ranking": {
         "score": 2.5,
         "rule_score": 2.5,
@@ -119,7 +119,7 @@
         "summary": "",
         "reason": "Matched topics: Variational inference and Bayesian computation; keyword matches: 1; preferred authors: 0."
       },
-      "ranking_key": "d0f2601cc5f9a07001f0c02fcd5b591b3ab931a73332709f110182da0948ea39"
+      "ranking_key": "db4fff7bbef0be4b090681014e8f475f997ba6ae687ac08c053701c9c452bd86"
     },
     {
       "id": "2611.24929",
@@ -133,7 +133,7 @@
       "announce_type": "new",
       "source_date": "Thu, 19 Nov 2026 00:00:00 -0500",
       "first_seen": "2026-11-19T15:52:57+00:00",
-      "last_seen": "2026-11-19T16:17:33+00:00",
+      "last_seen": "2026-11-19T16:58:24+00:00",
       "ranking": {
         "score": 2.5,
         "rule_score": 2.5,
@@ -149,7 +149,7 @@
         "summary": "",
         "reason": "Matched topics: Hierarchical and mixed models; keyword matches: 1; preferred authors: 0."
       },
-      "ranking_key": "75554eba51a8c40a7a3a0c47f7cef3a10582c82076c2e70b4d6b060d19f07455"
+      "ranking_key": "80893cc6e50498675f21a2a441e2efd0c3811d4a8346d5af570d74b6adcbe62a"
     },
     {
       "id": "2611.23467",
@@ -164,7 +164,7 @@
       "announce_type": "cross",
       "source_date": "Thu, 19 Nov 2026 00:00:00 -0500",
       "first_seen": "2026-11-19T15:52:57+00:00",
-      "last_seen": "2026-11-19T16:17:33+00:00",
+      "last_seen": "2026-11-19T16:58:24+00:00",
       "ranking": {
         "score": 2.0,
         "rule_score": 2.0,
@@ -178,7 +178,7 @@
         "summary": "",
         "reason": "Matched topics: Variational inference and Bayesian computation; keyword matches: 0; preferred authors: 0."
       },
-      "ranking_key": "c740bc64e94a438c9e3fe2697d3472707bbe0466fa9aeb3e177412d8f265ea9c"
+      "ranking_key": "a9c740be732899f667c2f01dab65e2e5c52152441013b76b7ad1aafbc2285d86"
     },
     {
       "id": "2611.23671",
@@ -192,7 +192,7 @@
       "announce_type": "cross",
       "source_date": "Thu, 19 Nov 2026 00:00:00 -0500",
       "first_seen": "2026-11-19T15:52:57+00:00",
-      "last_seen": "2026-11-19T16:17:33+00:00",
+      "last_seen": "2026-11-19T16:58:24+00:00",
       "ranking": {
         "score": 2.0,
         "rule_score": 2.0,
@@ -206,7 +206,7 @@
         "summary": "",
         "reason": "Matched topics: Optimisation for statistical learning; keyword matches: 0; preferred authors: 0."
       },
-      "ranking_key": "2940149bf6506714e976b78126e821407ff70b841ea28daa82fb3033e3693ce4"
+      "ranking_key": "ed205899b4686eb3448118a8c01a8f1507c14dc39b3c3f1a954fe8592152288a"
     },
     {
       "id": "2611.23951",
@@ -221,7 +221,7 @@
       "announce_type": "new",
       "source_date": "Thu, 19 Nov 2026 00:00:00 -0500",
       "first_seen": "2026-11-19T15:52:57+00:00",
-      "last_seen": "2026-11-19T16:17:33+00:00",
+      "last_seen": "2026-11-19T16:58:24+00:00",
       "ranking": {
         "score": 2.0,
         "rule_score": 2.0,
@@ -235,7 +235,7 @@
         "summary": "",
         "reason": "Matched topics: Dynamic and spatial models; keyword matches: 0; preferred authors: 0."
       },
-      "ranking_key": "4456c4f8fc563a12da3376e6c50adec1aea2b410826baac8d589128f59c73029"
+      "ranking_key": "043b7dc21ecaa4fcc547816235a5d967666425fd0721b14277b2107bdc97e82d"
     },
     {
       "id": "2611.24335",
@@ -249,7 +249,7 @@
       "announce_type": "cross",
       "source_date": "Thu, 19 Nov 2026 00:00:00 -0500",
       "first_seen": "2026-11-19T15:52:57+00:00",
-      "last_seen": "2026-11-19T16:17:33+00:00",
+      "last_seen": "2026-11-19T16:58:24+00:00",
       "ranking": {
         "score": 2.0,
         "rule_score": 2.0,
@@ -263,7 +263,7 @@
         "summary": "",
         "reason": "Matched topics: Dynamic and spatial models; keyword matches: 0; preferred authors: 0."
       },
-      "ranking_key": "de924cc1bfca982bb04c1d61e3060bf6301540c045df103586ae73df017849f0"
+      "ranking_key": "44ce3f328ccf136d7292c440f26315941b6d7d8e22024f3099e2665c0a079708"
     },
     {
       "id": "2611.24638",
@@ -277,7 +277,7 @@
       "announce_type": "cross",
       "source_date": "Thu, 19 Nov 2026 00:00:00 -0500",
       "first_seen": "2026-11-19T15:52:57+00:00",
-      "last_seen": "2026-11-19T16:17:33+00:00",
+      "last_seen": "2026-11-19T16:58:24+00:00",
       "ranking": {
         "score": 2.0,
         "rule_score": 2.0,
@@ -291,7 +291,7 @@
         "summary": "",
         "reason": "Matched topics: Dynamic and spatial models; keyword matches: 0; preferred authors: 0."
       },
-      "ranking_key": "23b9ea603f7b24b1af176c60884ed86420bdcfe1089303546d19bb6a72bbc7d0"
+      "ranking_key": "7187f4091278e0796401f43a63d3f0084d29c6cfb7ec05c9e3946a9d9ab5098b"
     },
     {
       "id": "2611.24678",
@@ -305,7 +305,7 @@
       "announce_type": "cross",
       "source_date": "Thu, 19 Nov 2026 00:00:00 -0500",
       "first_seen": "2026-11-19T15:52:57+00:00",
-      "last_seen": "2026-11-19T16:17:33+00:00",
+      "last_seen": "2026-11-19T16:58:24+00:00",
       "ranking": {
         "score": 2.0,
         "rule_score": 2.0,
@@ -319,7 +319,7 @@
         "summary": "",
         "reason": "Matched topics: Dynamic and spatial models; keyword matches: 0; preferred authors: 0."
       },
-      "ranking_key": "54e1510071ac9309b15559fb2d3aabd7b2ea2bef0296c42add05b86b7ff9a64a"
+      "ranking_key": "107bd91a9f71061c01a36024009736d2915258f0cf8238a1e193c1e3e5f58545"
     },
     {
       "id": "2611.23419",
@@ -333,7 +333,7 @@
       "announce_type": "cross",
       "source_date": "Thu, 19 Nov 2026 00:00:00 -0500",
       "first_seen": "2026-11-19T15:52:57+00:00",
-      "last_seen": "2026-11-19T16:17:33+00:00",
+      "last_seen": "2026-11-19T16:58:24+00:00",
       "ranking": {
         "score": 0,
         "rule_score": 0,
@@ -345,7 +345,7 @@
         "summary": "",
         "reason": "Matched topics: none; keyword matches: 0; preferred authors: 0."
       },
-      "ranking_key": "e5d9b57b63ae2e9ba60b6f6a20abd4424d27c3ae2369795ddec7c85abbf5cb76"
+      "ranking_key": "b4fd77f61d944910c215f922b70dacd60506ed8d9eed58b0a42c87a5ae381e9f"
     },
     {
       "id": "2611.23432",
@@ -359,7 +359,7 @@
       "announce_type": "cross",
       "source_date": "Thu, 19 Nov 2026 00:00:00 -0500",
       "first_seen": "2026-11-19T15:52:57+00:00",
-      "last_seen": "2026-11-19T16:17:33+00:00",
+      "last_seen": "2026-11-19T16:58:24+00:00",
       "ranking": {
         "score": 0,
         "rule_score": 0,
@@ -371,7 +371,7 @@
         "summary": "",
         "reason": "Matched topics: none; keyword matches: 0; preferred authors: 0."
       },
-      "ranking_key": "e38ec73bf25022d4a4b44d52f6e5c9d1babf07aa0c5f918e8b682d3b8f0f7e75"
+      "ranking_key": "44160cfa0277589b488d7b24f54e085f0c03825fd6ffaa80132ab2ec93ba21aa"
     },
     {
       "id": "2611.23439",
@@ -385,7 +385,7 @@
       "announce_type": "cross",
       "source_date": "Thu, 19 Nov 2026 00:00:00 -0500",
       "first_seen": "2026-11-19T15:52:57+00:00",
-      "last_seen": "2026-11-19T16:17:33+00:00",
+      "last_seen": "2026-11-19T16:58:24+00:00",
       "ranking": {
         "score": 0,
         "rule_score": 0,
@@ -397,7 +397,7 @@
         "summary": "",
         "reason": "Matched topics: none; keyword matches: 0; preferred authors: 0."
       },
-      "ranking_key": "674623fca5bcf624bea77b4e1875d2008d2f7d044933a5cdd63ff0ca0e66c1a9"
+      "ranking_key": "89430a17f91942ff740dab4bd8815c31b96219470e59b4e7c2891df9465126e2"
     },
     {
       "id": "2611.23459",
@@ -411,7 +411,7 @@
       "announce_type": "new",
       "source_date": "Thu, 19 Nov 2026 00:00:00 -0500",
       "first_seen": "2026-11-19T15:52:57+00:00",
-      "last_seen": "2026-11-19T16:17:33+00:00",
+      "last_seen": "2026-11-19T16:58:24+00:00",
       "ranking": {
         "score": 0,
         "rule_score": 0,
@@ -423,7 +423,7 @@
         "summary": "",
         "reason": "Matched topics: none; keyword matches: 0; preferred authors: 0."
       },
-      "ranking_key": "6509dce73f8a24185ca21118d282be97ab808eab0c80a85737cff616b32b9be2"
+      "ranking_key": "c8009f152d5812073656a02294fe0bd1616357e2fc1bbc90c71a04516775844d"
     },
     {
       "id": "2611.23524",
@@ -437,7 +437,7 @@
       "announce_type": "new",
       "source_date": "Thu, 19 Nov 2026 00:00:00 -0500",
       "first_seen": "2026-11-19T15:52:57+00:00",
-      "last_seen": "2026-11-19T16:17:33+00:00",
+      "last_seen": "2026-11-19T16:58:24+00:00",
       "ranking": {
         "score": 0,
         "rule_score": 0,
@@ -449,7 +449,7 @@
         "summary": "",
         "reason": "Matched topics: none; keyword matches: 0; preferred authors: 0."
       },
-      "ranking_key": "d05a75ba2c2e3166584dc0d2f53da7bad14ec527f0bd2c682e4988247e0b3527"
+      "ranking_key": "47be2bd61e25d7853566f9cbd301de0d391c655eb4588b4a74050a1a2ba19e00"
     },
     {
       "id": "2611.23551",
@@ -463,7 +463,7 @@
       "announce_type": "cross",
       "source_date": "Thu, 19 Nov 2026 00:00:00 -0500",
       "first_seen": "2026-11-19T15:52:57+00:00",
-      "last_seen": "2026-11-19T16:17:33+00:00",
+      "last_seen": "2026-11-19T16:58:24+00:00",
       "ranking": {
         "score": 0,
         "rule_score": 0,
@@ -475,7 +475,7 @@
         "summary": "",
         "reason": "Matched topics: none; keyword matches: 0; preferred authors: 0."
       },
-      "ranking_key": "607d72737f0bdee53f343a58ced776a011b3b5ea9b54fa4a852491248e74953a"
+      "ranking_key": "1defdebe7b3d880e03895f465c749e5ba57fe437390caabfe94b157c6d20abbc"
     },
     {
       "id": "2611.23565",
@@ -489,7 +489,7 @@
       "announce_type": "new",
       "source_date": "Thu, 19 Nov 2026 00:00:00 -0500",
       "first_seen": "2026-11-19T15:52:57+00:00",
-      "last_seen": "2026-11-19T16:17:33+00:00",
+      "last_seen": "2026-11-19T16:58:24+00:00",
       "ranking": {
         "score": 0,
         "rule_score": 0,
@@ -501,7 +501,7 @@
         "summary": "",
         "reason": "Matched topics: none; keyword matches: 0; preferred authors: 0."
       },
-      "ranking_key": "a19153c31f5988560f3ccf737368520c9aba09050700b42fabfdbc3b172797cd"
+      "ranking_key": "2ae1e8b9066fe7a5cfb983fb728c98d528b224a909143dc4b7133ff11bf7d8f5"
     },
     {
       "id": "2611.23566",
@@ -515,7 +515,7 @@
       "announce_type": "cross",
       "source_date": "Thu, 19 Nov 2026 00:00:00 -0500",
       "first_seen": "2026-11-19T15:52:57+00:00",
-      "last_seen": "2026-11-19T16:17:33+00:00",
+      "last_seen": "2026-11-19T16:58:24+00:00",
       "ranking": {
         "score": 0,
         "rule_score": 0,
@@ -527,7 +527,7 @@
         "summary": "",
         "reason": "Matched topics: none; keyword matches: 0; preferred authors: 0."
       },
-      "ranking_key": "98f79359a26df4a750fd1a434d5df67e673f4655869c16e7320caf1cd194507f"
+      "ranking_key": "516cd928b750125d2fc889bc3fb470f303a3d0e590c9155500c6ebd808264963"
     },
     {
       "id": "2611.23568",
@@ -541,7 +541,7 @@
       "announce_type": "new",
       "source_date": "Thu, 19 Nov 2026 00:00:00 -0500",
       "first_seen": "2026-11-19T15:52:57+00:00",
-      "last_seen": "2026-11-19T16:17:33+00:00",
+      "last_seen": "2026-11-19T16:58:24+00:00",
       "ranking": {
         "score": 0,
         "rule_score": 0,
@@ -553,7 +553,7 @@
         "summary": "",
         "reason": "Matched topics: none; keyword matches: 0; preferred authors: 0."
       },
-      "ranking_key": "75c1bd1be3ebcd82e6ac0dfd4607cb3474859e67ee2bf9d54e150f7bab857b44"
+      "ranking_key": "a98eb3266e4bc021b6d4e37a0922065c095013045680a35110af96c062fa003a"
     },
     {
       "id": "2611.23638",
@@ -567,7 +567,7 @@
       "announce_type": "cross",
       "source_date": "Thu, 19 Nov 2026 00:00:00 -0500",
       "first_seen": "2026-11-19T15:52:57+00:00",
-      "last_seen": "2026-11-19T16:17:33+00:00",
+      "last_seen": "2026-11-19T16:58:24+00:00",
       "ranking": {
         "score": 0,
         "rule_score": 0,
@@ -579,7 +579,7 @@
         "summary": "",
         "reason": "Matched topics: none; keyword matches: 0; preferred authors: 0."
       },
-      "ranking_key": "7401510ed5ab7a5887839448c0fc1db9437639c021db500536025f7eb19fbc27"
+      "ranking_key": "a5498235b9639a25862e40020874e9430c04cabd8bb3f76aede3aac2326f9ae2"
     },
     {
       "id": "2611.23675",
@@ -593,7 +593,7 @@
       "announce_type": "new",
       "source_date": "Thu, 19 Nov 2026 00:00:00 -0500",
       "first_seen": "2026-11-19T15:52:57+00:00",
-      "last_seen": "2026-11-19T16:17:33+00:00",
+      "last_seen": "2026-11-19T16:58:24+00:00",
       "ranking": {
         "score": 0,
         "rule_score": 0,
@@ -605,7 +605,7 @@
         "summary": "",
         "reason": "Matched topics: none; keyword matches: 0; preferred authors: 0."
       },
-      "ranking_key": "0796702c0511978a0513d427039abf453fdc4c9108fc61aca32be9c7499e5f97"
+      "ranking_key": "be121cb4eaa7411ac26199cd91559731c25bdad9def00592b0d31e87d60bfbda"
     },
     {
       "id": "2611.23775",
@@ -619,7 +619,7 @@
       "announce_type": "new",
       "source_date": "Thu, 19 Nov 2026 00:00:00 -0500",
       "first_seen": "2026-11-19T15:52:57+00:00",
-      "last_seen": "2026-11-19T16:17:33+00:00",
+      "last_seen": "2026-11-19T16:58:24+00:00",
       "ranking": {
         "score": 0,
         "rule_score": 0,
@@ -631,7 +631,7 @@
         "summary": "",
         "reason": "Matched topics: none; keyword matches: 0; preferred authors: 0."
       },
-      "ranking_key": "37bce34a314662b47754822042ade06cbf8b31d720236c5952023d225a02ec29"
+      "ranking_key": "03c76b8767077d6f095dee77a4a3c0367a16f7c561b4374abb453d4aa0212a42"
     },
     {
       "id": "2611.23798",
@@ -645,7 +645,7 @@
       "announce_type": "cross",
       "source_date": "Thu, 19 Nov 2026 00:00:00 -0500",
       "first_seen": "2026-11-19T15:52:57+00:00",
-      "last_seen": "2026-11-19T16:17:33+00:00",
+      "last_seen": "2026-11-19T16:58:24+00:00",
       "ranking": {
         "score": 0,
         "rule_score": 0,
@@ -657,7 +657,7 @@
         "summary": "",
         "reason": "Matched topics: none; keyword matches: 0; preferred authors: 0."
       },
-      "ranking_key": "2f7d479c704da9b907e45de8e0b2b1fa98efaf263b3f8bb678ebc02faa68dadc"
+      "ranking_key": "9ce545c4b53ad799fa8731359c7c8d2549b111472040c80241359212f4e7772c"
     },
     {
       "id": "2611.23815",
@@ -671,7 +671,7 @@
       "announce_type": "cross",
       "source_date": "Thu, 19 Nov 2026 00:00:00 -0500",
       "first_seen": "2026-11-19T15:52:57+00:00",
-      "last_seen": "2026-11-19T16:17:33+00:00",
+      "last_seen": "2026-11-19T16:58:24+00:00",
       "ranking": {
         "score": 0,
         "rule_score": 0,
@@ -683,7 +683,7 @@
         "summary": "",
         "reason": "Matched topics: none; keyword matches: 0; preferred authors: 0."
       },
-      "ranking_key": "bced4914cc1160be2537344cbb894426d2eba01b8c9534cab215b572957cc6b2"
+      "ranking_key": "d4a18bd8e04c6454826681e28d5f582f2c611d833f9d07b26839a826454cc016"
     },
     {
       "id": "2611.24015",
@@ -697,7 +697,7 @@
       "announce_type": "cross",
       "source_date": "Thu, 19 Nov 2026 00:00:00 -0500",
       "first_seen": "2026-11-19T15:52:57+00:00",
-      "last_seen": "2026-11-19T16:17:33+00:00",
+      "last_seen": "2026-11-19T16:58:24+00:00",
       "ranking": {
         "score": 0,
         "rule_score": 0,
@@ -709,7 +709,7 @@
         "summary": "",
         "reason": "Matched topics: none; keyword matches: 0; preferred authors: 0."
       },
-      "ranking_key": "49a387ce47cd891edf9a89af9b68be049c2b8e3570dc9734c5745150cb19c3ac"
+      "ranking_key": "4402852e78924e325e15be87f85f2f29bd587c4c121cdf853d7f5a1412e998cc"
     },
     {
       "id": "2611.24031",
@@ -723,7 +723,7 @@
       "announce_type": "new",
       "source_date": "Thu, 19 Nov 2026 00:00:00 -0500",
       "first_seen": "2026-11-19T15:52:57+00:00",
-      "last_seen": "2026-11-19T16:17:33+00:00",
+      "last_seen": "2026-11-19T16:58:24+00:00",
       "ranking": {
         "score": 0,
         "rule_score": 0,
@@ -735,7 +735,7 @@
         "summary": "",
         "reason": "Matched topics: none; keyword matches: 0; preferred authors: 0."
       },
-      "ranking_key": "370d7743542fe3f3773d389cb6cbad50f0539e08d4871e1a71b308d892455dab"
+      "ranking_key": "54fa3c9b6f1e90f3e72cb8bc4db55e85c218edad3402f87066d87394ebadaa4d"
     },
     {
       "id": "2611.24109",
@@ -749,7 +749,7 @@
       "announce_type": "cross",
       "source_date": "Thu, 19 Nov 2026 00:00:00 -0500",
       "first_seen": "2026-11-19T15:52:57+00:00",
-      "last_seen": "2026-11-19T16:17:33+00:00",
+      "last_seen": "2026-11-19T16:58:24+00:00",
       "ranking": {
         "score": 0,
         "rule_score": 0,
@@ -761,7 +761,7 @@
         "summary": "",
         "reason": "Matched topics: none; keyword matches: 0; preferred authors: 0."
       },
-      "ranking_key": "692f41a689c012fd407d8612e1ffd05fd92cf4c0203ffc92572aabfd7b44d60f"
+      "ranking_key": "a98ccf52a361659587de428222ee5e8ace168aa16b8a2ea41a2d9f7842ae80d3"
     },
     {
       "id": "2611.24143",
@@ -775,7 +775,7 @@
       "announce_type": "new",
       "source_date": "Thu, 19 Nov 2026 00:00:00 -0500",
       "first_seen": "2026-11-19T15:52:57+00:00",
-      "last_seen": "2026-11-19T16:17:33+00:00",
+      "last_seen": "2026-11-19T16:58:24+00:00",
       "ranking": {
         "score": 0,
         "rule_score": 0,
@@ -787,7 +787,7 @@
         "summary": "",
         "reason": "Matched topics: none; keyword matches: 0; preferred authors: 0."
       },
-      "ranking_key": "4ac3fc594ba88b4d2b5de61b447aae0d0c32e4b00b0d0bcae4b9dd397e36735d"
+      "ranking_key": "12eabb2253596cda192604720812e5842dab1c51aff8439fd06b17fe1e83726c"
     },
     {
       "id": "2611.24159",
@@ -801,7 +801,7 @@
       "announce_type": "cross",
       "source_date": "Thu, 19 Nov 2026 00:00:00 -0500",
       "first_seen": "2026-11-19T15:52:57+00:00",
-      "last_seen": "2026-11-19T16:17:33+00:00",
+      "last_seen": "2026-11-19T16:58:24+00:00",
       "ranking": {
         "score": 0,
         "rule_score": 0,
@@ -813,7 +813,7 @@
         "summary": "",
         "reason": "Matched topics: none; keyword matches: 0; preferred authors: 0."
       },
-      "ranking_key": "c37cd44ac2a8d02d153eb4f42afc9261d03a71f995eeaa972c4d3797d7c38b72"
+      "ranking_key": "0d1a34690e2dba6930215f0a4397ad39791f95893a5e7223ef969e716aa65eae"
     },
     {
       "id": "2611.24172",
@@ -827,7 +827,7 @@
       "announce_type": "new",
       "source_date": "Thu, 19 Nov 2026 00:00:00 -0500",
       "first_seen": "2026-11-19T15:52:57+00:00",
-      "last_seen": "2026-11-19T16:17:33+00:00",
+      "last_seen": "2026-11-19T16:58:24+00:00",
       "ranking": {
         "score": 0,
         "rule_score": 0,
@@ -839,7 +839,7 @@
         "summary": "",
         "reason": "Matched topics: none; keyword matches: 0; preferred authors: 0."
       },
-      "ranking_key": "19472d161c921ff381910223f35d61e176f49c099f6dc71755f0bab13b244ee0"
+      "ranking_key": "4f3232832828a841c8c807c7b8fbc9bb5e034cbae03afce82b2d484e6b847c6c"
     },
     {
       "id": "2611.24198",
@@ -853,7 +853,7 @@
       "announce_type": "new",
       "source_date": "Thu, 19 Nov 2026 00:00:00 -0500",
       "first_seen": "2026-11-19T15:52:57+00:00",
-      "last_seen": "2026-11-19T16:17:33+00:00",
+      "last_seen": "2026-11-19T16:58:24+00:00",
       "ranking": {
         "score": 0,
         "rule_score": 0,
@@ -865,7 +865,7 @@
         "summary": "",
         "reason": "Matched topics: none; keyword matches: 0; preferred authors: 0."
       },
-      "ranking_key": "48da9c552ef66eb79322d3a481a67cc963a893bfc1c0392ef98fcf14f306ae51"
+      "ranking_key": "c0f8376ff3fbfee989adf00e9aa9904c6241facd2d628363ee19fe57d3019428"
     },
     {
       "id": "2611.24338",
@@ -879,7 +879,7 @@
       "announce_type": "new",
       "source_date": "Thu, 19 Nov 2026 00:00:00 -0500",
       "first_seen": "2026-11-19T15:52:57+00:00",
-      "last_seen": "2026-11-19T16:17:33+00:00",
+      "last_seen": "2026-11-19T16:58:24+00:00",
       "ranking": {
         "score": 0,
         "rule_score": 0,
@@ -891,7 +891,7 @@
         "summary": "",
         "reason": "Matched topics: none; keyword matches: 0; preferred authors: 0."
       },
-      "ranking_key": "9b8595e6f29aecd268e2c930272c365aa4a68541dfcab32aa9e9f26eb4eb7514"
+      "ranking_key": "6154916b7eb9d07ecb877c077d2d3cb1ded9cb55eeffef64f0a8eaf278f938df"
     },
     {
       "id": "2611.24402",
@@ -905,7 +905,7 @@
       "announce_type": "cross",
       "source_date": "Thu, 19 Nov 2026 00:00:00 -0500",
       "first_seen": "2026-11-19T15:52:57+00:00",
-      "last_seen": "2026-11-19T16:17:33+00:00",
+      "last_seen": "2026-11-19T16:58:24+00:00",
       "ranking": {
         "score": 0,
         "rule_score": 0,
@@ -917,7 +917,7 @@
         "summary": "",
         "reason": "Matched topics: none; keyword matches: 0; preferred authors: 0."
       },
-      "ranking_key": "b5c4ff6bdf737ca864540506b3861006c85426c9221e87cffe667a9973bfc855"
+      "ranking_key": "4aa4cf4918370f4e9cfb3640cb503e79fef874adffa4e381e0333c6f1f3bde93"
     },
     {
       "id": "2611.24438",
@@ -931,7 +931,7 @@
       "announce_type": "new",
       "source_date": "Thu, 19 Nov 2026 00:00:00 -0500",
       "first_seen": "2026-11-19T15:52:57+00:00",
-      "last_seen": "2026-11-19T16:17:33+00:00",
+      "last_seen": "2026-11-19T16:58:24+00:00",
       "ranking": {
         "score": 0,
         "rule_score": 0,
@@ -943,7 +943,7 @@
         "summary": "",
         "reason": "Matched topics: none; keyword matches: 0; preferred authors: 0."
       },
-      "ranking_key": "00d91bc9b4d8db7b56a001539cf7df4b874cbe0eb5a8458201c4705a3517cf53"
+      "ranking_key": "f7fcb7a76d967d20e4028f21056dd45dd336f4a52f9aa19ba800c5d376ae2015"
     },
     {
       "id": "2611.24463",
@@ -957,7 +957,7 @@
       "announce_type": "new",
       "source_date": "Thu, 19 Nov 2026 00:00:00 -0500",
       "first_seen": "2026-11-19T15:52:57+00:00",
-      "last_seen": "2026-11-19T16:17:33+00:00",
+      "last_seen": "2026-11-19T16:58:24+00:00",
       "ranking": {
         "score": 0,
         "rule_score": 0,
@@ -969,7 +969,7 @@
         "summary": "",
         "reason": "Matched topics: none; keyword matches: 0; preferred authors: 0."
       },
-      "ranking_key": "b0cdabc5929dc1403ec805d521ac5d1447d72afc4cc076dabf5f3c306067ed67"
+      "ranking_key": "3696725ef9bd6ad9fa6f4a010e98c73c1d733b469b313c85cd718ac417d1b594"
     },
     {
       "id": "2611.24555",
@@ -983,7 +983,7 @@
       "announce_type": "new",
       "source_date": "Thu, 19 Nov 2026 00:00:00 -0500",
       "first_seen": "2026-11-19T15:52:57+00:00",
-      "last_seen": "2026-11-19T16:17:33+00:00",
+      "last_seen": "2026-11-19T16:58:24+00:00",
       "ranking": {
         "score": 0,
         "rule_score": 0,
@@ -995,7 +995,7 @@
         "summary": "",
         "reason": "Matched topics: none; keyword matches: 0; preferred authors: 0."
       },
-      "ranking_key": "a435d3a9d2bcc0ce22fb93345e52e0bc0157d58a7d4263d259d4c351f86a8fc1"
+      "ranking_key": "b396e093f0ce36a42dceb6dafa11920122e1685d456b486233408c02043ed5df"
     },
     {
       "id": "2611.24714",
@@ -1009,7 +1009,7 @@
       "announce_type": "cross",
       "source_date": "Thu, 19 Nov 2026 00:00:00 -0500",
       "first_seen": "2026-11-19T15:52:57+00:00",
-      "last_seen": "2026-11-19T16:17:33+00:00",
+      "last_seen": "2026-11-19T16:58:24+00:00",
       "ranking": {
         "score": 0,
         "rule_score": 0,
@@ -1021,7 +1021,7 @@
         "summary": "",
         "reason": "Matched topics: none; keyword matches: 0; preferred authors: 0."
       },
-      "ranking_key": "d9d8e1dcb3844d868da0a9735627ff72ea53acdfe47f6ef49ff8cab305fc23d8"
+      "ranking_key": "bdf4bf43eb472da2717e7ea7ab7f2d63d739787b61e987ee8cf0f826daac148b"
     },
     {
       "id": "2611.24758",
@@ -1035,7 +1035,7 @@
       "announce_type": "cross",
       "source_date": "Thu, 19 Nov 2026 00:00:00 -0500",
       "first_seen": "2026-11-19T15:52:57+00:00",
-      "last_seen": "2026-11-19T16:17:33+00:00",
+      "last_seen": "2026-11-19T16:58:24+00:00",
       "ranking": {
         "score": 0,
         "rule_score": 0,
@@ -1047,7 +1047,7 @@
         "summary": "",
         "reason": "Matched topics: none; keyword matches: 0; preferred authors: 0."
       },
-      "ranking_key": "55c1e771af5bc0330d2777a82598b6e627609a9c4d58664274be73a473893056"
+      "ranking_key": "19c0bf227da6599169d833978ded08cf21d7364c8154171cd1b3cf48f6648fd5"
     },
     {
       "id": "2611.24821",
@@ -1061,7 +1061,7 @@
       "announce_type": "new",
       "source_date": "Thu, 19 Nov 2026 00:00:00 -0500",
       "first_seen": "2026-11-19T15:52:57+00:00",
-      "last_seen": "2026-11-19T16:17:33+00:00",
+      "last_seen": "2026-11-19T16:58:24+00:00",
       "ranking": {
         "score": 0,
         "rule_score": 0,
@@ -1073,11 +1073,11 @@
         "summary": "",
         "reason": "Matched topics: none; keyword matches: 0; preferred authors: 0."
       },
-      "ranking_key": "130881dbc6065ea5b8efedee39087ca2080a7184bb715b0e48f0bc8b213ee8be"
+      "ranking_key": "87b8b6c7d1df9bf977309ea408b065085195f8b5fd356c75daa8694e68d91daf"
     }
   ],
   "status": {
-    "last_success": "2026-11-19T16:17:33+00:00",
+    "last_success": "2026-11-19T16:58:24+00:00",
     "warnings": []
   }
 }
