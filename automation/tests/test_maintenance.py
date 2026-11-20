@@ -61,6 +61,7 @@ class Tests(unittest.TestCase):
  def test_notes_do_not_overwrite_edits(self):
   p={'id':'2611.12345','title':'Paper','authors':'A','url':'https://arxiv.org/abs/2611.12345','abstract':'Abstract'}
   with tempfile.TemporaryDirectory() as d:
-   with patch.object(m,'ROOT',Path(d)),patch.object(m,'recent_papers',return_value=([p],{})):
+   # Exercise the local-note branch even when the test suite runs on GitHub Actions.
+   with patch.dict(m.os.environ, {'GITHUB_ACTIONS': ''}), patch.object(m,'ROOT',Path(d)),patch.object(m,'recent_papers',return_value=([p],{})):
     m.notes(CFG,m.Fetcher());file=Path(d)/'private-notes/automation/reading-notes/2611.12345.md';file.write_text('My annotation');m.notes(CFG,m.Fetcher());self.assertEqual(file.read_text(),'My annotation')
 if __name__=='__main__':unittest.main()
