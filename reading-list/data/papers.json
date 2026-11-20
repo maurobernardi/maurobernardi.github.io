@@ -41,7 +41,7 @@
       "announce_type": "new",
       "source_date": "Fri, 20 Nov 2026 00:00:00 -0500",
       "first_seen": "2026-11-20T08:40:44+00:00",
-      "last_seen": "2026-11-20T08:40:44+00:00",
+      "last_seen": "2026-11-20T16:24:32+00:00",
       "ranking": {
         "score": 4.0,
         "rule_score": 4.0,
@@ -192,7 +192,7 @@
       "announce_type": "cross",
       "source_date": "Fri, 20 Nov 2026 00:00:00 -0500",
       "first_seen": "2026-11-20T08:40:44+00:00",
-      "last_seen": "2026-11-20T08:40:44+00:00",
+      "last_seen": "2026-11-20T16:24:32+00:00",
       "ranking": {
         "score": 2.5,
         "rule_score": 2.5,
@@ -392,7 +392,7 @@
       "announce_type": "new",
       "source_date": "Fri, 20 Nov 2026 00:00:00 -0500",
       "first_seen": "2026-11-20T08:40:44+00:00",
-      "last_seen": "2026-11-20T08:40:44+00:00",
+      "last_seen": "2026-11-20T16:24:32+00:00",
       "ranking": {
         "score": 2.0,
         "rule_score": 2.0,
@@ -420,7 +420,7 @@
       "announce_type": "new",
       "source_date": "Fri, 20 Nov 2026 00:00:00 -0500",
       "first_seen": "2026-11-20T08:40:44+00:00",
-      "last_seen": "2026-11-20T08:40:44+00:00",
+      "last_seen": "2026-11-20T16:24:32+00:00",
       "ranking": {
         "score": 2.0,
         "rule_score": 2.0,
@@ -448,7 +448,7 @@
       "announce_type": "new",
       "source_date": "Fri, 20 Nov 2026 00:00:00 -0500",
       "first_seen": "2026-11-20T08:40:44+00:00",
-      "last_seen": "2026-11-20T08:40:44+00:00",
+      "last_seen": "2026-11-20T16:24:32+00:00",
       "ranking": {
         "score": 2.0,
         "rule_score": 2.0,
@@ -476,7 +476,7 @@
       "announce_type": "cross",
       "source_date": "Fri, 20 Nov 2026 00:00:00 -0500",
       "first_seen": "2026-11-20T08:40:44+00:00",
-      "last_seen": "2026-11-20T08:40:44+00:00",
+      "last_seen": "2026-11-20T16:24:32+00:00",
       "ranking": {
         "score": 2.0,
         "rule_score": 2.0,
@@ -504,7 +504,7 @@
       "announce_type": "new",
       "source_date": "Fri, 20 Nov 2026 00:00:00 -0500",
       "first_seen": "2026-11-20T08:40:44+00:00",
-      "last_seen": "2026-11-20T08:40:44+00:00",
+      "last_seen": "2026-11-20T16:24:32+00:00",
       "ranking": {
         "score": 2.0,
         "rule_score": 2.0,
@@ -532,7 +532,7 @@
       "announce_type": "new",
       "source_date": "Fri, 20 Nov 2026 00:00:00 -0500",
       "first_seen": "2026-11-20T08:40:44+00:00",
-      "last_seen": "2026-11-20T08:40:44+00:00",
+      "last_seen": "2026-11-20T16:24:32+00:00",
       "ranking": {
         "score": 2.0,
         "rule_score": 2.0,
@@ -560,7 +560,7 @@
       "announce_type": "new",
       "source_date": "Fri, 20 Nov 2026 00:00:00 -0500",
       "first_seen": "2026-11-20T08:40:44+00:00",
-      "last_seen": "2026-11-20T08:40:44+00:00",
+      "last_seen": "2026-11-20T16:24:32+00:00",
       "ranking": {
         "score": 2.0,
         "rule_score": 2.0,
@@ -1342,7 +1342,7 @@
       "announce_type": "cross",
       "source_date": "Fri, 20 Nov 2026 00:00:00 -0500",
       "first_seen": "2026-11-20T08:40:44+00:00",
-      "last_seen": "2026-11-20T08:40:44+00:00",
+      "last_seen": "2026-11-20T16:24:32+00:00",
       "ranking": {
         "score": 0,
         "rule_score": 0,
@@ -1368,7 +1368,7 @@
       "announce_type": "cross",
       "source_date": "Fri, 20 Nov 2026 00:00:00 -0500",
       "first_seen": "2026-11-20T08:40:44+00:00",
-      "last_seen": "2026-11-20T08:40:44+00:00",
+      "last_seen": "2026-11-20T16:24:32+00:00",
       "ranking": {
         "score": 0,
         "rule_score": 0,
@@ -1394,7 +1394,7 @@
       "announce_type": "cross",
       "source_date": "Fri, 20 Nov 2026 00:00:00 -0500",
       "first_seen": "2026-11-20T08:40:44+00:00",
-      "last_seen": "2026-11-20T08:40:44+00:00",
+      "last_seen": "2026-11-20T16:24:32+00:00",
       "ranking": {
         "score": 0,
         "rule_score": 0,
@@ -1420,7 +1420,7 @@
       "announce_type": "new",
       "source_date": "Fri, 20 Nov 2026 00:00:00 -0500",
       "first_seen": "2026-11-20T08:40:44+00:00",
-      "last_seen": "2026-11-20T08:40:44+00:00",
+      "last_seen": "2026-11-20T16:24:32+00:00",
       "ranking": {
         "score": 0,
         "rule_score": 0,
@@ -1447,7 +1447,7 @@
       "announce_type": "new",
       "source_date": "Fri, 20 Nov 2026 00:00:00 -0500",
       "first_seen": "2026-11-20T08:40:44+00:00",
-      "last_seen": "2026-11-20T08:40:44+00:00",
+      "last_seen": "2026-11-20T16:24:32+00:00",
       "ranking": {
         "score": 0,
         "rule_score": 0,
@@ -1473,7 +1473,7 @@
       "announce_type": "cross",
       "source_date": "Fri, 20 Nov 2026 00:00:00 -0500",
       "first_seen": "2026-11-20T08:40:44+00:00",
-      "last_seen": "2026-11-20T08:40:44+00:00",
+      "last_seen": "2026-11-20T16:24:32+00:00",
       "ranking": {
         "score": 0,
         "rule_score": 0,
@@ -1499,7 +1499,7 @@
       "announce_type": "cross",
       "source_date": "Fri, 20 Nov 2026 00:00:00 -0500",
       "first_seen": "2026-11-20T08:40:44+00:00",
-      "last_seen": "2026-11-20T08:40:44+00:00",
+      "last_seen": "2026-11-20T16:24:32+00:00",
       "ranking": {
         "score": 0,
         "rule_score": 0,
@@ -1526,7 +1526,7 @@
       "announce_type": "cross",
       "source_date": "Fri, 20 Nov 2026 00:00:00 -0500",
       "first_seen": "2026-11-20T08:40:44+00:00",
-      "last_seen": "2026-11-20T08:40:44+00:00",
+      "last_seen": "2026-11-20T16:24:32+00:00",
       "ranking": {
         "score": 0,
         "rule_score": 0,
@@ -1552,7 +1552,7 @@
       "announce_type": "cross",
       "source_date": "Fri, 20 Nov 2026 00:00:00 -0500",
       "first_seen": "2026-11-20T08:40:44+00:00",
-      "last_seen": "2026-11-20T08:40:44+00:00",
+      "last_seen": "2026-11-20T16:24:32+00:00",
       "ranking": {
         "score": 0,
         "rule_score": 0,
@@ -1578,7 +1578,7 @@
       "announce_type": "new",
       "source_date": "Fri, 20 Nov 2026 00:00:00 -0500",
       "first_seen": "2026-11-20T08:40:44+00:00",
-      "last_seen": "2026-11-20T08:40:44+00:00",
+      "last_seen": "2026-11-20T16:24:32+00:00",
       "ranking": {
         "score": 0,
         "rule_score": 0,
@@ -1604,7 +1604,7 @@
       "announce_type": "new",
       "source_date": "Fri, 20 Nov 2026 00:00:00 -0500",
       "first_seen": "2026-11-20T08:40:44+00:00",
-      "last_seen": "2026-11-20T08:40:44+00:00",
+      "last_seen": "2026-11-20T16:24:32+00:00",
       "ranking": {
         "score": 0,
         "rule_score": 0,
@@ -1630,7 +1630,7 @@
       "announce_type": "new",
       "source_date": "Fri, 20 Nov 2026 00:00:00 -0500",
       "first_seen": "2026-11-20T08:40:44+00:00",
-      "last_seen": "2026-11-20T08:40:44+00:00",
+      "last_seen": "2026-11-20T16:24:32+00:00",
       "ranking": {
         "score": 0,
         "rule_score": 0,
@@ -1656,7 +1656,7 @@
       "announce_type": "new",
       "source_date": "Fri, 20 Nov 2026 00:00:00 -0500",
       "first_seen": "2026-11-20T08:40:44+00:00",
-      "last_seen": "2026-11-20T08:40:44+00:00",
+      "last_seen": "2026-11-20T16:24:32+00:00",
       "ranking": {
         "score": 0,
         "rule_score": 0,
@@ -1682,7 +1682,7 @@
       "announce_type": "cross",
       "source_date": "Fri, 20 Nov 2026 00:00:00 -0500",
       "first_seen": "2026-11-20T08:40:44+00:00",
-      "last_seen": "2026-11-20T08:40:44+00:00",
+      "last_seen": "2026-11-20T16:24:32+00:00",
       "ranking": {
         "score": 0,
         "rule_score": 0,
@@ -1709,7 +1709,7 @@
       "announce_type": "cross",
       "source_date": "Fri, 20 Nov 2026 00:00:00 -0500",
       "first_seen": "2026-11-20T08:40:44+00:00",
-      "last_seen": "2026-11-20T08:40:44+00:00",
+      "last_seen": "2026-11-20T16:24:32+00:00",
       "ranking": {
         "score": 0,
         "rule_score": 0,
@@ -1735,7 +1735,7 @@
       "announce_type": "cross",
       "source_date": "Fri, 20 Nov 2026 00:00:00 -0500",
       "first_seen": "2026-11-20T08:40:44+00:00",
-      "last_seen": "2026-11-20T08:40:44+00:00",
+      "last_seen": "2026-11-20T16:24:32+00:00",
       "ranking": {
         "score": 0,
         "rule_score": 0,
@@ -1762,7 +1762,7 @@
       "announce_type": "cross",
       "source_date": "Fri, 20 Nov 2026 00:00:00 -0500",
       "first_seen": "2026-11-20T08:40:44+00:00",
-      "last_seen": "2026-11-20T08:40:44+00:00",
+      "last_seen": "2026-11-20T16:24:32+00:00",
       "ranking": {
         "score": 0,
         "rule_score": 0,
@@ -1789,7 +1789,7 @@
       "announce_type": "cross",
       "source_date": "Fri, 20 Nov 2026 00:00:00 -0500",
       "first_seen": "2026-11-20T08:40:44+00:00",
-      "last_seen": "2026-11-20T08:40:44+00:00",
+      "last_seen": "2026-11-20T16:24:32+00:00",
       "ranking": {
         "score": 0,
         "rule_score": 0,
@@ -1815,7 +1815,7 @@
       "announce_type": "new",
       "source_date": "Fri, 20 Nov 2026 00:00:00 -0500",
       "first_seen": "2026-11-20T08:40:44+00:00",
-      "last_seen": "2026-11-20T08:40:44+00:00",
+      "last_seen": "2026-11-20T16:24:32+00:00",
       "ranking": {
         "score": 0,
         "rule_score": 0,
@@ -1841,7 +1841,7 @@
       "announce_type": "new",
       "source_date": "Fri, 20 Nov 2026 00:00:00 -0500",
       "first_seen": "2026-11-20T08:40:44+00:00",
-      "last_seen": "2026-11-20T08:40:44+00:00",
+      "last_seen": "2026-11-20T16:24:32+00:00",
       "ranking": {
         "score": 0,
         "rule_score": 0,
@@ -1867,7 +1867,7 @@
       "announce_type": "cross",
       "source_date": "Fri, 20 Nov 2026 00:00:00 -0500",
       "first_seen": "2026-11-20T08:40:44+00:00",
-      "last_seen": "2026-11-20T08:40:44+00:00",
+      "last_seen": "2026-11-20T16:24:32+00:00",
       "ranking": {
         "score": 0,
         "rule_score": 0,
@@ -1893,7 +1893,7 @@
       "announce_type": "new",
       "source_date": "Fri, 20 Nov 2026 00:00:00 -0500",
       "first_seen": "2026-11-20T08:40:44+00:00",
-      "last_seen": "2026-11-20T08:40:44+00:00",
+      "last_seen": "2026-11-20T16:24:32+00:00",
       "ranking": {
         "score": 0,
         "rule_score": 0,
@@ -1909,7 +1909,7 @@
     }
   ],
   "status": {
-    "last_success": "2026-11-20T08:40:44+00:00",
+    "last_success": "2026-11-20T16:24:32+00:00",
     "warnings": []
   }
 }
