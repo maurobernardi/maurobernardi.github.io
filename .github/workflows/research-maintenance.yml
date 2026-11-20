@@ -1,0 +1,34 @@
+name: Research maintenance
+on:
+  workflow_dispatch:
+  schedule:
+    # Mondays, about 09:35 CET / 10:35 CEST. GitHub may delay scheduled runs.
+    - cron: '35 8 * * 1'
+permissions:
+  contents: read
+concurrency:
+  group: research-maintenance
+  cancel-in-progress: false
+jobs:
+  reports:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
+        with:
+          python-version: '3.13'
+      - name: Test assistants
+        run: python -m unittest discover -s automation/tests -v
+      - name: Public-source checks and weekly digest
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: python automation/maintenance.py --tasks publications,links,packages,digest --network --output maintenance-reports
+      - name: Store reports for review
+        if: always()
+        uses: actions/upload-artifact@v7
+        with:
+          name: research-maintenance-${{ github.run_number }}
+          path: maintenance-reports
+          retention-days: 30
+          if-no-files-found: warn

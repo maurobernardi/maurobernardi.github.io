@@ -1,0 +1,20 @@
+{
+  "language": "Italian",
+  "research_context": "Mauro Bernardi works on quantile and distributional regression; variational inference and Bayesian computation; sparse, adaptive and group penalties, variable selection and degrees of freedom; functional data and local sparsity; networks, graphical models and high-dimensional covariance and precision matrices; hierarchical and dynamic models; and optimisation, including ADMM, MM, gradient and proximal methods. Discuss connections only when supported by the paper, and identify proposed extensions as hypotheses. Check objective normalisation, assumptions, uncertainty quantification and computational reproducibility where relevant.",
+  "max_papers_per_run": 2,
+  "chunk_characters": 14000,
+  "max_chunks": 16,
+  "max_output_tokens": 4500,
+  "minimum_text_characters": 1000,
+  "output_directory": "private-notes/critical-notes",
+  "sections": [
+    "Problem and contribution",
+    "Model, notation and assumptions",
+    "Theoretical results and proof structure",
+    "Algorithms and computation",
+    "Experiments and reproducibility",
+    "Strengths and limitations",
+    "Connections to my research",
+    "Questions and possible extensions"
+  ]
+}

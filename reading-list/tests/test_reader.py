@@ -89,6 +89,15 @@ class ReaderTests(unittest.TestCase):
             target=Path(d)/'index.html';r.render([p],CFG,{},target);text=target.read_text()
         self.assertNotIn('<script>alert(1)</script>',text);self.assertIn('&lt;script&gt;',text)
         self.assertIn('A &amp; B',text)
+    def test_selection_panel_authors_and_collapsed_state(self):
+        cfg=dict(CFG,authors=['Example Author <A>'])
+        with tempfile.TemporaryDirectory() as d:
+            target=Path(d)/'reading.html';r.render([],cfg,{},target,{});html=target.read_text()
+        self.assertIn('<details class="reader-profile"><summary>How papers are selected</summary>',html)
+        self.assertIn('<h3>Authors followed</h3>',html)
+        self.assertIn('Example Author &lt;A&gt;',html)
+        self.assertIn('<h3>From collection to selection</h3>',html)
+        self.assertNotIn('Research profile and selection rules',html)
     def test_all_feed_failure_preserves_outputs(self):
         with tempfile.TemporaryDirectory() as d:
             d=Path(d);state=d/'papers.json';output=d/'reading.html';cfg=d/'cfg.json'

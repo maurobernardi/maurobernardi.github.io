@@ -1,0 +1,11 @@
+{
+  "author": {"name": "Mauro Bernardi", "given": "Mauro", "family": "Bernardi", "orcid": "0009-0002-9404-3433"},
+  "site_url": "https://maurobernardi.github.io/",
+  "request_timeout_seconds": 12,
+  "maximum_external_links": 160,
+  "notes_per_run": 2,
+  "publication_search_years": 5,
+  "crossref_rows": 100,
+  "digest_limit": 30,
+  "github_owner": "maurobernardi"
+}
